@@ -1,0 +1,18 @@
+[
+  {
+    "userName": "iOS@at.co",
+    "password": "password1"
+  },
+  {
+    "userName": "macOS@at.co",
+    "password": "password2"
+  },
+  {
+    "userName": "watchOS@at.co",
+    "password": "password3"
+  },
+  {
+    "userName": "Apple@at.co",
+    "password": "password4"
+  }
+]

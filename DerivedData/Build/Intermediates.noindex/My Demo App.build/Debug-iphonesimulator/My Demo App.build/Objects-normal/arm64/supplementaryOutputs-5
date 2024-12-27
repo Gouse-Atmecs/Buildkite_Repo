@@ -1,0 +1,24 @@
+"/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/My Demo App/Controllers/ShippingAddressViewController.swift":
+  object: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/ShippingAddressViewController.o"
+  diagnostics: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/ShippingAddressViewController.dia"
+  const-values: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/ShippingAddressViewController.swiftconstvalues"
+  dependencies: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/ShippingAddressViewController.d"
+  swift-dependencies: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/ShippingAddressViewController.swiftdeps"
+"/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/My Demo App/Controllers/DrawingViewController.swift":
+  swift-dependencies: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/DrawingViewController.swiftdeps"
+  object: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/DrawingViewController.o"
+  diagnostics: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/DrawingViewController.dia"
+  const-values: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/DrawingViewController.swiftconstvalues"
+  dependencies: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/DrawingViewController.d"
+"/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/My Demo App/DesignableClasses/ViewShadowTop.swift":
+  dependencies: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/ViewShadowTop.d"
+  const-values: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/ViewShadowTop.swiftconstvalues"
+  diagnostics: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/ViewShadowTop.dia"
+  object: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/ViewShadowTop.o"
+  swift-dependencies: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/ViewShadowTop.swiftdeps"
+"/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/My Demo App/Constants/Engine.swift":
+  diagnostics: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/Engine.dia"
+  object: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/Engine.o"
+  dependencies: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/Engine.d"
+  swift-dependencies: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/Engine.swiftdeps"
+  const-values: "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/My Demo App.build/Objects-normal/arm64/Engine.swiftconstvalues"

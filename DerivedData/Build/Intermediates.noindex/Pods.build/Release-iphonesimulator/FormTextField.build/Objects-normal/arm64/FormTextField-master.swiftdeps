@@ -1,0 +1,20 @@
+version: "Apple Swift version 6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)"
+options: "90c1417fe60b8183bc11a958cc661bcc17975e7e36c4c01e93c3f77d88a2b232"
+build_start_time: [1735210324, 287447000]
+build_end_time: [1735210330, 347255000]
+inputs:
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/FormTextField.swift": [1733294026, 52320765]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/FormTextFieldClearButton.swift": [1733294026, 52394835]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/FormTextFieldTypeManager.swift": [1733294026, 52467405]
+  ? "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/Formatter/CardExpirationDateFormatter.swift"
+  : [1733294026, 52589465]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/Formatter/CardNumberFormatter.swift": [1733294026, 52656744]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/Formatter/Formattable.swift": [1733294026, 52721274]
+  ? "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/InputValidator/CardExpirationDateInputValidator.swift"
+  : [1733294026, 52845376]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/InputValidator/DecimalInputValidator.swift": [1733294026, 52919195]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/InputValidator/InputValidatable.swift": [1733294026, 52990224]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/InputValidator/InputValidator.swift": [1733294026, 53059961]
+  ? "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/InputValidator/RequiredInputValidator.swift"
+  : [1733294026, 53144320]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/Validation/Validation.swift": [1733294026, 53279503]

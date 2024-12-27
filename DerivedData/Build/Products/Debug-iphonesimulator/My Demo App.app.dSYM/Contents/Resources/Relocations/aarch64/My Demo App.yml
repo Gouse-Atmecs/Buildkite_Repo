@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Products/Debug-iphonesimulator/My Demo App.app/My Demo App'
+relocations:     []
+...

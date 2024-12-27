@@ -1,0 +1,7 @@
+version: "Apple Swift version 6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)"
+options: "d9d79ea02c1dd4c4f784a4fe2717052ff5bdbee953d0b158bc7c86380b08bda8"
+build_start_time: [1735210324, 287447000]
+build_end_time: [1735210330, 345906000]
+inputs:
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/EasyTipView/Sources/EasyTipView/EasyTipView.swift": [1733294026, 51746622]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/EasyTipView/Sources/EasyTipView/UIKitExtensions.swift": [1733294026, 51844771]

@@ -1,0 +1,5 @@
+MyDemoAppUITests/CartAndCheckoutFlowTests
+MyDemoAppUITests/LoginScenarioTests
+MyDemoAppUITests/LogoutVerificationTests
+MyDemoAppUITests/ProductDetailsTests
+MyDemoAppUITests/SocialMediaButtonsRedirectionTests

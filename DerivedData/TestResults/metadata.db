@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<integer>1</integer>
+	<key>Store</key>
+	<dict>
+		<key>MyDemoAppUITests</key>
+		<dict>
+			<key>CartAndCheckoutFlowTests</key>
+			<dict>
+				<key>testMultipleItemsCheckOut</key>
+				<dict>
+					<key>mrnet</key>
+					<real>33.117232084274292</real>
+				</dict>
+				<key>testRegression_AddRemoveItemsFromCart</key>
+				<dict>
+					<key>mrnet</key>
+					<real>20.377533912658691</real>
+				</dict>
+				<key>testSanity_AddRemoveItemsFromCart</key>
+				<dict>
+					<key>mrnet</key>
+					<real>20.239746928215027</real>
+				</dict>
+				<key>testSanity_VerifyItemRemovalFromCart</key>
+				<dict>
+					<key>mrnet</key>
+					<real>14.41209602355957</real>
+				</dict>
+				<key>testSmoke_VerifyCheckOutWithEmptyCart</key>
+				<dict>
+					<key>mrnet</key>
+					<real>11.800886988639832</real>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

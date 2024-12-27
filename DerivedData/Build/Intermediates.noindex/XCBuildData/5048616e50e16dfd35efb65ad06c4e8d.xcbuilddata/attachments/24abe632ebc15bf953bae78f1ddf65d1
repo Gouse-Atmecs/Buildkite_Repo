@@ -1,0 +1,288 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/MyDemoAppUITests-master.dia",
+    "emit-module-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/MyDemoAppUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/MyDemoAppUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/MyDemoAppUITests-master.swiftdeps"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Base/BaseScreen.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseScreen.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseScreen.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseScreen.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseScreen.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseScreen.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseScreen.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseScreen.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseScreen~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Base/BaseTest.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseTest.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseTest.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseTest.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseTest.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseTest.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseTest.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseTest.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/BaseTest~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Constants/AppConstants.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AppConstants.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AppConstants.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AppConstants.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AppConstants.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AppConstants.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AppConstants.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AppConstants.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AppConstants~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Constants/ErrorMessages.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ErrorMessages.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ErrorMessages.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ErrorMessages.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ErrorMessages.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ErrorMessages.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ErrorMessages.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ErrorMessages.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ErrorMessages~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Constants/LogMessages.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogMessages.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogMessages.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogMessages.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogMessages.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogMessages.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogMessages.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogMessages.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogMessages~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/E2ETests/CartAndCheckout/CartAndCheckoutFlowTests.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartAndCheckoutFlowTests.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartAndCheckoutFlowTests.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartAndCheckoutFlowTests.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartAndCheckoutFlowTests.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartAndCheckoutFlowTests.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartAndCheckoutFlowTests.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartAndCheckoutFlowTests.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartAndCheckoutFlowTests~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/E2ETests/Login/LoginScenarioTests.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScenarioTests.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScenarioTests.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScenarioTests.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScenarioTests.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScenarioTests.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScenarioTests.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScenarioTests.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScenarioTests~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/E2ETests/Logout/LogoutVerificationTests.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogoutVerificationTests.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogoutVerificationTests.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogoutVerificationTests.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogoutVerificationTests.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogoutVerificationTests.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogoutVerificationTests.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogoutVerificationTests.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LogoutVerificationTests~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/E2ETests/ProductDetails/ProductDetailsTests.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailsTests.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailsTests.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailsTests.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailsTests.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailsTests.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailsTests.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailsTests.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailsTests~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/E2ETests/SocialMediaRedirection/SocialMediaButtonsRedirectionTests.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SocialMediaButtonsRedirectionTests.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SocialMediaButtonsRedirectionTests.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SocialMediaButtonsRedirectionTests.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SocialMediaButtonsRedirectionTests.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SocialMediaButtonsRedirectionTests.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SocialMediaButtonsRedirectionTests.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SocialMediaButtonsRedirectionTests.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SocialMediaButtonsRedirectionTests~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/About/AboutScreen.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AboutScreen.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AboutScreen.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AboutScreen.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AboutScreen.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AboutScreen.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AboutScreen.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AboutScreen.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/AboutScreen~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/Cart/CartScreen.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartScreen.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartScreen.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartScreen.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartScreen.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartScreen.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartScreen.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartScreen.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CartScreen~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/CheckOut/CheckOutScreen.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckOutScreen.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckOutScreen.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckOutScreen.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckOutScreen.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckOutScreen.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckOutScreen.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckOutScreen.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckOutScreen~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/CheckOutSuccess/CheckoutCompleteScreen.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckoutCompleteScreen.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckoutCompleteScreen.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckoutCompleteScreen.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckoutCompleteScreen.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckoutCompleteScreen.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckoutCompleteScreen.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckoutCompleteScreen.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/CheckoutCompleteScreen~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/Home/HomeScreen.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/HomeScreen.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/HomeScreen.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/HomeScreen.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/HomeScreen.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/HomeScreen.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/HomeScreen.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/HomeScreen.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/HomeScreen~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/Login/LoginScreen.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScreen.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScreen.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScreen.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScreen.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScreen.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScreen.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScreen.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/LoginScreen~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/More/MoreScreen.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/MoreScreen.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/MoreScreen.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/MoreScreen.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/MoreScreen.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/MoreScreen.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/MoreScreen.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/MoreScreen.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/MoreScreen~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/PlaceOrder/PlaceOrderScreen.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/PlaceOrderScreen.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/PlaceOrderScreen.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/PlaceOrderScreen.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/PlaceOrderScreen.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/PlaceOrderScreen.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/PlaceOrderScreen.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/PlaceOrderScreen.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/PlaceOrderScreen~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/ProductDetail/ProductDetailScreen.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailScreen.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailScreen.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailScreen.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailScreen.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailScreen.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailScreen.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailScreen.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ProductDetailScreen~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/ShippingAddress/ShippingAdressScreen.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ShippingAdressScreen.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ShippingAdressScreen.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ShippingAdressScreen.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ShippingAdressScreen.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ShippingAdressScreen.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ShippingAdressScreen.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ShippingAdressScreen.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/ShippingAdressScreen~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/SessionManager/SessionManager.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SessionManager.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SessionManager.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SessionManager.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SessionManager.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SessionManager.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SessionManager.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SessionManager.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/SessionManager~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Utils/Helpers/Helpers.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/Helpers.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/Helpers.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/Helpers.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/Helpers.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/Helpers.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/Helpers.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/Helpers.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/Helpers~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Utils/Logger/TestLogger.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/TestLogger.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/TestLogger.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/TestLogger.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/TestLogger.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/TestLogger.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/TestLogger.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/TestLogger.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/TestLogger~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Utils/Models/UserAddressModel.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserAddressModel.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserAddressModel.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserAddressModel.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserAddressModel.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserAddressModel.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserAddressModel.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserAddressModel.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserAddressModel~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Utils/Models/UserCardDetailsModel.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCardDetailsModel.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCardDetailsModel.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCardDetailsModel.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCardDetailsModel.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCardDetailsModel.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCardDetailsModel.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCardDetailsModel.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCardDetailsModel~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Utils/Models/UserCredentialsDataModel.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsDataModel.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsDataModel.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsDataModel.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsDataModel.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsDataModel.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsDataModel.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsDataModel.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsDataModel~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Utils/Models/UserCredentialsTestDataModel.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsTestDataModel.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsTestDataModel.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsTestDataModel.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsTestDataModel.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsTestDataModel.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsTestDataModel.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsTestDataModel.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/UserCredentialsTestDataModel~partial.swiftmodule"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Verification/VerificationManager.swift" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/VerificationManager.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/VerificationManager.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/VerificationManager.dia",
+    "index-unit-output-path" : "/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/VerificationManager.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/VerificationManager.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/VerificationManager.o",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/VerificationManager.swiftdeps",
+    "swiftmodule" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/My Demo App.build/Debug-iphonesimulator/MyDemoAppUITests.build/Objects-normal/arm64/VerificationManager~partial.swiftmodule"
+  }
+}

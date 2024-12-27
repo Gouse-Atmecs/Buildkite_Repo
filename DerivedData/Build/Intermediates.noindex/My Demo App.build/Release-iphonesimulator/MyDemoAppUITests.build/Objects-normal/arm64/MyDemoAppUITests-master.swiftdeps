@@ -1,0 +1,38 @@
+version: "Apple Swift version 6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)"
+options: "2f946e57e03c105afcb902542d038d78fd91489236a6b3c9bcab4919f19a9057"
+build_start_time: [1735210339, 358568000]
+build_end_time: [1735210345, 659253000]
+inputs:
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Base/BaseScreen.swift": [1733383631, 276655745]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Base/BaseTest.swift": [1733294026, 47183764]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Constants/AppConstants.swift": [1733834162, 462377598]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Constants/ErrorMessages.swift": [1733886265, 219324817]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Constants/LogMessages.swift": [1733893477, 765947549]
+  ? "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/E2ETests/CartAndCheckout/CartAndCheckoutFlowTests.swift"
+  : [1735208197, 713117823]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/E2ETests/Login/LoginScenarioTests.swift": [1735208197, 745814509]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/E2ETests/Logout/LogoutVerificationTests.swift": [1735196386, 371363208]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/E2ETests/ProductDetails/ProductDetailsTests.swift": [1735208197, 704004298]
+  ? "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/E2ETests/SocialMediaRedirection/SocialMediaButtonsRedirectionTests.swift"
+  : [1735196691, 353113602]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/About/AboutScreen.swift": [1733826189, 652158814]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/Cart/CartScreen.swift": [1733858986, 165246652]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/CheckOut/CheckOutScreen.swift": [1733294026, 48789673]
+  ? "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/CheckOutSuccess/CheckoutCompleteScreen.swift"
+  : [1733294026, 48903777]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/Home/HomeScreen.swift": [1733886572, 775497187]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/Login/LoginScreen.swift": [1733831512, 869507875]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/More/MoreScreen.swift": [1733396646, 79243098]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/PlaceOrder/PlaceOrderScreen.swift": [1733294026, 49476212]
+  ? "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/ProductDetail/ProductDetailScreen.swift"
+  : [1733294026, 49626184]
+  ? "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/ScreenObjects/ShippingAddress/ShippingAdressScreen.swift"
+  : [1733310149, 134602666]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/SessionManager/SessionManager.swift": [1733294026, 49889052]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Utils/Helpers/Helpers.swift": [1735207162, 409618752]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Utils/Logger/TestLogger.swift": [1733798913, 279845069]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Utils/Models/UserAddressModel.swift": [1733310149, 151160946]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Utils/Models/UserCardDetailsModel.swift": [1733294026, 50728229]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Utils/Models/UserCredentialsDataModel.swift": [1733770336, 59954937]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Utils/Models/UserCredentialsTestDataModel.swift": [1734337827, 372801628]
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/MyDemoAppUITests/Verification/VerificationManager.swift": [1733828589, 560330528]

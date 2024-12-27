@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>E61147C1-14B8-4537-8FAD-A576063315D8</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E61147C1-14B8-4537-8FAD-A576063315D8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>My Demo App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MyDemoAppUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing workspace My Demo App with scheme MyDemoAppUITests</string>
+			<key>timeStartedRecording</key>
+			<real>756906965.89836395</real>
+			<key>timeStoppedRecording</key>
+			<real>756906966.90498495</real>
+			<key>title</key>
+			<string>Testing workspace My Demo App with scheme MyDemoAppUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>E61147C1-14B8-4537-8FAD-A576063315D8</string>
+		</dict>
+		<key>F69632C1-1E50-4F46-AA5F-51CC6E392048</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F69632C1-1E50-4F46-AA5F-51CC6E392048.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>My Demo App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MyDemoAppUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing workspace My Demo App with scheme MyDemoAppUITests</string>
+			<key>timeStartedRecording</key>
+			<real>756906795.02512503</real>
+			<key>timeStoppedRecording</key>
+			<real>756906805.25228095</real>
+			<key>title</key>
+			<string>Testing workspace My Demo App with scheme MyDemoAppUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>F69632C1-1E50-4F46-AA5F-51CC6E392048</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

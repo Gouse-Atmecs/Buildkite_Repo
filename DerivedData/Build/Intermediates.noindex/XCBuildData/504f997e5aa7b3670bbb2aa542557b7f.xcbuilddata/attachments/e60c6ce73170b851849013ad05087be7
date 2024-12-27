@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Products/Release-iphonesimulator/FormTextField/FormTextField.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Products/Release-iphonesimulator/FormTextField/FormTextField.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "FormTextField-Swift.h",
+      'external-contents': "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/unextended-interface-header.h",
+    }]
+    }]
+}

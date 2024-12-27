@@ -1,0 +1,70 @@
+{
+  "" : {
+    "const-values" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextField-master.swiftconstvalues",
+    "dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextField-master.d",
+    "diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextField-master.dia",
+    "emit-module-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextField-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextField-master-emit-module.dia",
+    "swift-dependencies" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextField-master.swiftdeps"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/FormTextField.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextField.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextField.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextField.o"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/FormTextFieldClearButton.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextFieldClearButton.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextFieldClearButton.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextFieldClearButton.o"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/FormTextFieldTypeManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextFieldTypeManager.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextFieldTypeManager.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/FormTextFieldTypeManager.o"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/Formatter/CardExpirationDateFormatter.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/CardExpirationDateFormatter.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/CardExpirationDateFormatter.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/CardExpirationDateFormatter.o"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/Formatter/CardNumberFormatter.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/CardNumberFormatter.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/CardNumberFormatter.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/CardNumberFormatter.o"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/Formatter/Formattable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/Formattable.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/Formattable.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/Formattable.o"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/InputValidator/CardExpirationDateInputValidator.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/CardExpirationDateInputValidator.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/CardExpirationDateInputValidator.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/CardExpirationDateInputValidator.o"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/InputValidator/DecimalInputValidator.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/DecimalInputValidator.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/DecimalInputValidator.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/DecimalInputValidator.o"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/InputValidator/InputValidatable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/InputValidatable.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/InputValidatable.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/InputValidatable.o"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/InputValidator/InputValidator.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/InputValidator.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/InputValidator.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/InputValidator.o"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/InputValidator/RequiredInputValidator.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/RequiredInputValidator.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/RequiredInputValidator.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/RequiredInputValidator.o"
+  },
+  "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/Pods/FormTextField/Source/Validation/Validation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/Validation.o",
+    "llvm-bc" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/Validation.bc",
+    "object" : "/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FormTextField.build/Objects-normal/arm64/Validation.o"
+  }
+}
