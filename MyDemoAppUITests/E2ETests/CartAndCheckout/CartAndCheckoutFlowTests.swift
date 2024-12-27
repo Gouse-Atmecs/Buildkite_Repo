@@ -157,7 +157,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
             cartScreen.tapOnRemoveFromCartButton()
             TestLogger.shared.log("Test finished: \(self.name)")
     }
-  
+  //
   func testSanity_AddRemoveItemsFromCart() {
           TestLogger.shared.log("Test started: \(self.name)")
           /// Login
