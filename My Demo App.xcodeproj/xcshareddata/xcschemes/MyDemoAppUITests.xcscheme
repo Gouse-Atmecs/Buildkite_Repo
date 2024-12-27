@@ -1,44 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1610"
-   version = "2.1">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES"
       buildArchitectures = "Automatic">
-      <BuildActionEntries>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <TestPlanReference
-               reference = "container:../MyDemoAppUITests.xctestplan">
-            </TestPlanReference>
-         </BuildActionEntry>
-      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
-      <TestPlans>
-         <TestPlanReference
-            reference = "container:../MyDemoAppUITests.xctestplan"
-            default = "YES">
-         </TestPlanReference>
-         <TestPlanReference
-            reference = "container:../MyDemoAppUITests(Sanity).xctestplan">
-         </TestPlanReference>
-         <TestPlanReference
-            reference = "container:../MyDemoAppUITests(Smoke).xctestplan">
-         </TestPlanReference>
-         <TestPlanReference
-            reference = "container:../MyDemoAppUITests(Regression).xctestplan">
-         </TestPlanReference>
-      </TestPlans>
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -49,17 +23,6 @@
                BlueprintName = "MyDemoAppUITests"
                ReferencedContainer = "container:My Demo App.xcodeproj">
             </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "LoginScenarioTests/testLoginFailedWithInvalidCredential()">
-               </Test>
-               <Test
-                  Identifier = "SocialMediaButtonsRedirectionTests">
-               </Test>
-               <Test
-                  Identifier = "SocialMediaButtonsRedirectionTests/testSocialMediaButtonRedirection()">
-               </Test>
-            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
@@ -80,15 +43,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A2C826A72706266600616582"
-            BuildableName = "MyDemoAppUITests.xctest"
-            BlueprintName = "MyDemoAppUITests"
-            ReferencedContainer = "container:My Demo App.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

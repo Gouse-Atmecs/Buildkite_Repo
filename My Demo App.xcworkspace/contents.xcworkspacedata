@@ -8,24 +8,24 @@
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../MyDemoAppUITests(CheckOut).xctestplan">
+      location = "absolute:/Users/mohammad.jani/Desktop/airmobile/MyDemoAppUITests.xctestplan">
    </FileRef>
    <FileRef
-      location = "group:../MyDemoAppUITests(Staging).xctestplan">
+      location = "absolute:/Users/mohammad.jani/Desktop/airmobile/MyDemoAppUITests(CheckOut).xctestplan">
    </FileRef>
    <FileRef
-      location = "group:../MyDemoAppUITests(Production).xctestplan">
+      location = "absolute:/Users/mohammad.jani/Desktop/airmobile/MyDemoAppUITests(Production).xctestplan">
    </FileRef>
    <FileRef
-      location = "group:../MyDemoAppUITests(Smoke).xctestplan">
+      location = "absolute:/Users/mohammad.jani/Desktop/airmobile/MyDemoAppUITests(Regression).xctestplan">
    </FileRef>
    <FileRef
-      location = "group:../MyDemoAppUITests(Sanity).xctestplan">
+      location = "absolute:/Users/mohammad.jani/Desktop/airmobile/MyDemoAppUITests(Sanity).xctestplan">
    </FileRef>
    <FileRef
-      location = "group:../MyDemoAppUITests.xctestplan">
+      location = "absolute:/Users/mohammad.jani/Desktop/airmobile/MyDemoAppUITests(Smoke).xctestplan">
    </FileRef>
    <FileRef
-      location = "group:../MyDemoAppUITests(Regression).xctestplan">
+      location = "absolute:/Users/mohammad.jani/Desktop/airmobile/MyDemoAppUITests(Staging).xctestplan">
    </FileRef>
 </Workspace>
