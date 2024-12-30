@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/mohammad.jani/Desktop/airmobile/my-demo-app-ios-main/DerivedData/Build/Products/Debug-iphonesimulator/My Demo App.app/My Demo App.debug.dylib'
+binary-path:     '/Users/mohammad.jani/Desktop/buildkite/Buildkite_Repo/DerivedData/Build/Products/Debug-iphonesimulator/My Demo App.app/My Demo App.debug.dylib'
 relocations:
   - { offset: 0x9F7E5, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App20TextFieldBorderColorC011placeholderG0So7UIColorCvpfi', symObjAddr: 0x0, symBinAddr: 0x3444, symSize: 0x3C }
   - { offset: 0x9F7FD, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App20TextFieldBorderColorC011placeholderG0So7UIColorCvpfi', symObjAddr: 0x0, symBinAddr: 0x3444, symSize: 0x3C }
@@ -1181,7 +1181,7 @@ relocations:
   - { offset: 0xB0182, size: 0x8, addend: 0x0, symName: '_$sSo32TestFairySelectFeedbackFormFieldC9attribute5label6values12defaultValueABSgSSSg_AHSDys11AnyHashableVypGSgAHtcfcTO', symObjAddr: 0x2420, symBinAddr: 0x37574, symSize: 0x234 }
   - { offset: 0xB0196, size: 0x8, addend: 0x0, symName: '_$sSo34TestFairyTextAreaFeedbackFormFieldC9attribute11placeholder12defaultValueABSgSSSg_A2GtcfcTO', symObjAddr: 0x2654, symBinAddr: 0x377A8, symSize: 0x1A4 }
   - { offset: 0xB0410, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App9cartCountSivau', symObjAddr: 0x0, symBinAddr: 0x37A78, symSize: 0xC }
-  - { offset: 0xB0434, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App9cartCountSivp', symObjAddr: 0x2CD0, symBinAddr: 0xD6D98, symSize: 0x0 }
+  - { offset: 0xB0434, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App9cartCountSivp', symObjAddr: 0x2C48, symBinAddr: 0xD6CD8, symSize: 0x0 }
   - { offset: 0xB0442, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App9cartCountSivau', symObjAddr: 0x0, symBinAddr: 0x37A78, symSize: 0xC }
   - { offset: 0xB06AA, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App16RatingControllerC05starsD0Sivpfi', symObjAddr: 0x0, symBinAddr: 0x37A84, symSize: 0x1C }
   - { offset: 0xB06C2, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App16RatingControllerC05starsD0Sivpfi', symObjAddr: 0x0, symBinAddr: 0x37A84, symSize: 0x1C }
@@ -1724,7 +1724,7 @@ relocations:
   - { offset: 0xB8041, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App29ShippingAddressViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x4BF0, symBinAddr: 0x50848, symSize: 0x38 }
   - { offset: 0xB8055, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App29ShippingAddressViewControllerCfD', symObjAddr: 0x4C28, symBinAddr: 0x50880, symSize: 0x48 }
   - { offset: 0xB82D7, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App6EngineC14sharedInstance_WZ', symObjAddr: 0x0, symBinAddr: 0x5099C, symSize: 0x30 }
-  - { offset: 0xB82FB, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App6EngineC14sharedInstanceACvpZ', symObjAddr: 0x128E0, symBinAddr: 0xD6DA0, symSize: 0x0 }
+  - { offset: 0xB82FB, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App6EngineC14sharedInstanceACvpZ', symObjAddr: 0x12848, symBinAddr: 0xD6CE0, symSize: 0x0 }
   - { offset: 0xB8D40, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App6EngineC14sharedInstance_WZ', symObjAddr: 0x0, symBinAddr: 0x5099C, symSize: 0x30 }
   - { offset: 0xB8D5A, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App6EngineCMa', symObjAddr: 0x30, symBinAddr: 0x509CC, symSize: 0x24 }
   - { offset: 0xB8D6E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App6EngineC14sharedInstanceACvau', symObjAddr: 0x78, symBinAddr: 0x50A14, symSize: 0x54 }
@@ -3203,92 +3203,92 @@ relocations:
   - { offset: 0xCCE24, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App17ButtonRoundCornerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0xFFC, symBinAddr: 0x8F430, symSize: 0x38 }
   - { offset: 0xCCE38, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App17ButtonRoundCornerCfD', symObjAddr: 0x1034, symBinAddr: 0x8F468, symSize: 0x48 }
   - { offset: 0xCD0B4, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App19ResourceBundleClass33_F1DEFCEE0F3DC2CBE0EF6D1122BB40ECLLCfd', symObjAddr: 0x0, symBinAddr: 0x8F4E0, symSize: 0x24 }
-  - { offset: 0xCD0D8, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App14resourceBundle33_F1DEFCEE0F3DC2CBE0EF6D1122BB40ECLLSo8NSBundleCvp', symObjAddr: 0x1C528, symBinAddr: 0xD4498, symSize: 0x0 }
-  - { offset: 0xCD0F2, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV12addPlusIconsACvpZ', symObjAddr: 0x1C9E0, symBinAddr: 0xD6DA8, symSize: 0x0 }
-  - { offset: 0xCD1D2, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV14addToCartIconsACvpZ', symObjAddr: 0x1C9F8, symBinAddr: 0xD6DC0, symSize: 0x0 }
-  - { offset: 0xCD1EC, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23addToCart2SelectedIconsACvpZ', symObjAddr: 0x1CA10, symBinAddr: 0xD6DD8, symSize: 0x0 }
-  - { offset: 0xCD206, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV25addToCart2UnselectedIconsACvpZ', symObjAddr: 0x1CA28, symBinAddr: 0xD6DF0, symSize: 0x0 }
-  - { offset: 0xCD220, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV24addToCartUnselectedIconsACvpZ', symObjAddr: 0x1CA40, symBinAddr: 0xD6E08, symSize: 0x0 }
-  - { offset: 0xCD23A, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV21addToCatSelectedIconsACvpZ', symObjAddr: 0x1CA58, symBinAddr: 0xD6E20, symSize: 0x0 }
-  - { offset: 0xCD254, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV12appLogoIconsACvpZ', symObjAddr: 0x1CA70, symBinAddr: 0xD6E38, symSize: 0x0 }
-  - { offset: 0xCD26E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV13appTitleIconsACvpZ', symObjAddr: 0x1CA88, symBinAddr: 0xD6E50, symSize: 0x0 }
-  - { offset: 0xCD288, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV15backButtonIconsACvpZ', symObjAddr: 0x1CAA0, symBinAddr: 0xD6E68, symSize: 0x0 }
-  - { offset: 0xCD2A2, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV8bagBlackACvpZ', symObjAddr: 0x1CAB8, symBinAddr: 0xD6E80, symSize: 0x0 }
-  - { offset: 0xCD2BC, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV8bagGreenACvpZ', symObjAddr: 0x1CAD0, symBinAddr: 0xD6E98, symSize: 0x0 }
-  - { offset: 0xCD2D6, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9bagOrangeACvpZ', symObjAddr: 0x1CAE8, symBinAddr: 0xD6EB0, symSize: 0x0 }
-  - { offset: 0xCD2F0, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV6bagRedACvpZ', symObjAddr: 0x1CB00, symBinAddr: 0xD6EC8, symSize: 0x0 }
-  - { offset: 0xCD30A, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9bagVioletACvpZ', symObjAddr: 0x1CB18, symBinAddr: 0xD6EE0, symSize: 0x0 }
-  - { offset: 0xCD324, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9bagYellowACvpZ', symObjAddr: 0x1CB30, symBinAddr: 0xD6EF8, symSize: 0x0 }
-  - { offset: 0xCD33E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9bikeLightACvpZ', symObjAddr: 0x1CB48, symBinAddr: 0xD6F10, symSize: 0x0 }
-  - { offset: 0xCD358, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23blackColorSelectedIconsACvpZ', symObjAddr: 0x1CB60, symBinAddr: 0xD6F28, symSize: 0x0 }
-  - { offset: 0xCD372, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV25blackColorUnSelectedIconsACvpZ', symObjAddr: 0x1CB78, symBinAddr: 0xD6F40, symSize: 0x0 }
-  - { offset: 0xCD38C, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV22blueColorSelectedIconsACvpZ', symObjAddr: 0x1CB90, symBinAddr: 0xD6F58, symSize: 0x0 }
-  - { offset: 0xCD3A6, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV24blueColorUnSelectedIconsACvpZ', symObjAddr: 0x1CBA8, symBinAddr: 0xD6F70, symSize: 0x0 }
-  - { offset: 0xCD3C0, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV14cartEmptyIconsACvpZ', symObjAddr: 0x1CBC0, symBinAddr: 0xD6F88, symSize: 0x0 }
-  - { offset: 0xCD3DA, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV20catalogSelectedIconsACvpZ', symObjAddr: 0x1CBD8, symBinAddr: 0xD6FA0, symSize: 0x0 }
-  - { offset: 0xCD3F4, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV22catalogUnselectedIconsACvpZ', symObjAddr: 0x1CBF0, symBinAddr: 0xD6FB8, symSize: 0x0 }
-  - { offset: 0xCD40E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV21checkBoxSelectedIconsACvpZ', symObjAddr: 0x1CC08, symBinAddr: 0xD6FD0, symSize: 0x0 }
-  - { offset: 0xCD428, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23checkBoxUnselectedIconsACvpZ', symObjAddr: 0x1CC20, symBinAddr: 0xD6FE8, symSize: 0x0 }
-  - { offset: 0xCD442, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV16clearButtonIconsACvpZ', symObjAddr: 0x1CC38, symBinAddr: 0xD7000, symSize: 0x0 }
-  - { offset: 0xCD45C, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11deleteIconsACvpZ', symObjAddr: 0x1CC50, symBinAddr: 0xD7018, symSize: 0x0 }
-  - { offset: 0xCD476, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV22drawingBackgroundIconsACvpZ', symObjAddr: 0x1CC68, symBinAddr: 0xD7030, symSize: 0x0 }
-  - { offset: 0xCD490, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11faceIdIconsACvpZ', symObjAddr: 0x1CC80, symBinAddr: 0xD7048, symSize: 0x0 }
-  - { offset: 0xCD4AA, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV13facebookIconsACvpZ', symObjAddr: 0x1CC98, symBinAddr: 0xD7060, symSize: 0x0 }
-  - { offset: 0xCD4C4, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV17forwordArrowIconsACvpZ', symObjAddr: 0x1CCB0, symBinAddr: 0xD7078, symSize: 0x0 }
-  - { offset: 0xCD4DE, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV15grayButtonIconsACvpZ', symObjAddr: 0x1CCC8, symBinAddr: 0xD7090, symSize: 0x0 }
-  - { offset: 0xCD4F8, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV22grayColorSelectedIconsACvpZ', symObjAddr: 0x1CCE0, symBinAddr: 0xD70A8, symSize: 0x0 }
-  - { offset: 0xCD512, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV24grayColorUnSelectedIconsACvpZ', symObjAddr: 0x1CCF8, symBinAddr: 0xD70C0, symSize: 0x0 }
-  - { offset: 0xCD52C, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV18grayRoundViewIconsACvpZ', symObjAddr: 0x1CD10, symBinAddr: 0xD70D8, symSize: 0x0 }
-  - { offset: 0xCD546, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV16greenButtonIconsACvpZ', symObjAddr: 0x1CD28, symBinAddr: 0xD70F0, symSize: 0x0 }
-  - { offset: 0xCD560, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23greenColorSelectedIconsACvpZ', symObjAddr: 0x1CD40, symBinAddr: 0xD7108, symSize: 0x0 }
-  - { offset: 0xCD57A, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV25greenColorUnselectedIconsACvpZ', symObjAddr: 0x1CD58, symBinAddr: 0xD7120, symSize: 0x0 }
-  - { offset: 0xCD594, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV19greenRoundViewIconsACvpZ', symObjAddr: 0x1CD70, symBinAddr: 0xD7138, symSize: 0x0 }
-  - { offset: 0xCD5AE, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV10jacketBlueACvpZ', symObjAddr: 0x1CD88, symBinAddr: 0xD7150, symSize: 0x0 }
-  - { offset: 0xCD5C8, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11jacketBrownACvpZ', symObjAddr: 0x1CDA0, symBinAddr: 0xD7168, symSize: 0x0 }
-  - { offset: 0xCD5E2, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV10jacketGrayACvpZ', symObjAddr: 0x1CDB8, symBinAddr: 0xD7180, symSize: 0x0 }
-  - { offset: 0xCD5FC, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11jacketGreenACvpZ', symObjAddr: 0x1CDD0, symBinAddr: 0xD7198, symSize: 0x0 }
-  - { offset: 0xCD616, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV10jacketPinkACvpZ', symObjAddr: 0x1CDE8, symBinAddr: 0xD71B0, symSize: 0x0 }
-  - { offset: 0xCD630, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9jacketRedACvpZ', symObjAddr: 0x1CE00, symBinAddr: 0xD71C8, symSize: 0x0 }
-  - { offset: 0xCD64A, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV13linkedinIconsACvpZ', symObjAddr: 0x1CE18, symBinAddr: 0xD71E0, symSize: 0x0 }
-  - { offset: 0xCD664, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9menuIconsACvpZ', symObjAddr: 0x1CE30, symBinAddr: 0xD71F8, symSize: 0x0 }
-  - { offset: 0xCD67E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV21plusMoreSelectedIconsACvpZ', symObjAddr: 0x1CE48, symBinAddr: 0xD7210, symSize: 0x0 }
-  - { offset: 0xCD698, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23plusMoreUnselectedIconsACvpZ', symObjAddr: 0x1CE60, symBinAddr: 0xD7228, symSize: 0x0 }
-  - { offset: 0xCD6B2, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV16ponyExpressIconsACvpZ', symObjAddr: 0x1CE78, symBinAddr: 0xD7240, symSize: 0x0 }
-  - { offset: 0xCD6CC, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV7qrIconsACvpZ', symObjAddr: 0x1CE90, symBinAddr: 0xD7258, symSize: 0x0 }
-  - { offset: 0xCD6E6, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV17questionMarkIconsACvpZ', symObjAddr: 0x1CEA8, symBinAddr: 0xD7270, symSize: 0x0 }
-  - { offset: 0xCD700, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV14redButtonIconsACvpZ', symObjAddr: 0x1CEC0, symBinAddr: 0xD7288, symSize: 0x0 }
-  - { offset: 0xCD71A, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV21redColorSelectedIconsACvpZ', symObjAddr: 0x1CED8, symBinAddr: 0xD72A0, symSize: 0x0 }
-  - { offset: 0xCD734, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23redColorUnSelectedIconsACvpZ', symObjAddr: 0x1CEF0, symBinAddr: 0xD72B8, symSize: 0x0 }
-  - { offset: 0xCD74E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV17redRoundViewIconsACvpZ', symObjAddr: 0x1CF08, symBinAddr: 0xD72D0, symSize: 0x0 }
-  - { offset: 0xCD768, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV10robotIconsACvpZ', symObjAddr: 0x1CF20, symBinAddr: 0xD72E8, symSize: 0x0 }
-  - { offset: 0xCD782, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV15saveButtonIconsACvpZ', symObjAddr: 0x1CF38, symBinAddr: 0xD7300, symSize: 0x0 }
-  - { offset: 0xCD79C, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV19searchNotFoundIconsACvpZ', symObjAddr: 0x1CF50, symBinAddr: 0xD7318, symSize: 0x0 }
-  - { offset: 0xCD7B6, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11shirtOrangeACvpZ', symObjAddr: 0x1CF68, symBinAddr: 0xD7330, symSize: 0x0 }
-  - { offset: 0xCD7D0, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9shirtPinkACvpZ', symObjAddr: 0x1CF80, symBinAddr: 0xD7348, symSize: 0x0 }
-  - { offset: 0xCD7EA, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11shirtPurpleACvpZ', symObjAddr: 0x1CF98, symBinAddr: 0xD7360, symSize: 0x0 }
-  - { offset: 0xCD804, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV8shirtRedACvpZ', symObjAddr: 0x1CFB0, symBinAddr: 0xD7378, symSize: 0x0 }
-  - { offset: 0xCD81E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV14shirtRedOnesieACvpZ', symObjAddr: 0x1CFC8, symBinAddr: 0xD7390, symSize: 0x0 }
-  - { offset: 0xCD838, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV14shirtTurquoiseACvpZ', symObjAddr: 0x1CFE0, symBinAddr: 0xD73A8, symSize: 0x0 }
-  - { offset: 0xCD852, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11shirtYellowACvpZ', symObjAddr: 0x1CFF8, symBinAddr: 0xD73C0, symSize: 0x0 }
-  - { offset: 0xCD86C, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV22sortNameAscendingIconsACvpZ', symObjAddr: 0x1D010, symBinAddr: 0xD73D8, symSize: 0x0 }
-  - { offset: 0xCD886, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23sortNameDescendingIconsACvpZ', symObjAddr: 0x1D028, symBinAddr: 0xD73F0, symSize: 0x0 }
-  - { offset: 0xCD8A0, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23sortPriceAscendingIconsACvpZ', symObjAddr: 0x1D040, symBinAddr: 0xD7408, symSize: 0x0 }
-  - { offset: 0xCD8BA, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV24sortPriceDescendingIconsACvpZ', symObjAddr: 0x1D058, symBinAddr: 0xD7420, symSize: 0x0 }
-  - { offset: 0xCD8D4, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV17sortSelectedIconsACvpZ', symObjAddr: 0x1D070, symBinAddr: 0xD7438, symSize: 0x0 }
-  - { offset: 0xCD8EE, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV17starSelectedIconsACvpZ', symObjAddr: 0x1D088, symBinAddr: 0xD7450, symSize: 0x0 }
-  - { offset: 0xCD908, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV19starUnSelectedIconsACvpZ', symObjAddr: 0x1D0A0, symBinAddr: 0xD7468, symSize: 0x0 }
-  - { offset: 0xCD922, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV18subtractMinusIconsACvpZ', symObjAddr: 0x1D0B8, symBinAddr: 0xD7480, symSize: 0x0 }
-  - { offset: 0xCD93D, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV19switchSelectedIconsACvpZ', symObjAddr: 0x1D0D0, symBinAddr: 0xD7498, symSize: 0x0 }
-  - { offset: 0xCD958, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV21switchUnselectedIconsACvpZ', symObjAddr: 0x1D0E8, symBinAddr: 0xD74B0, symSize: 0x0 }
-  - { offset: 0xCD973, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11tShirtBlackACvpZ', symObjAddr: 0x1D100, symBinAddr: 0xD74C8, symSize: 0x0 }
-  - { offset: 0xCD98E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV10tShirtBlueACvpZ', symObjAddr: 0x1D118, symBinAddr: 0xD74E0, symSize: 0x0 }
-  - { offset: 0xCD9A9, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11tShirtGreenACvpZ', symObjAddr: 0x1D130, symBinAddr: 0xD74F8, symSize: 0x0 }
-  - { offset: 0xCD9C4, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9tShirtRedACvpZ', symObjAddr: 0x1D148, symBinAddr: 0xD7510, symSize: 0x0 }
-  - { offset: 0xCD9DF, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV12tShirtYellowACvpZ', symObjAddr: 0x1D160, symBinAddr: 0xD7528, symSize: 0x0 }
-  - { offset: 0xCD9FA, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9tickIconsACvpZ', symObjAddr: 0x1D178, symBinAddr: 0xD7540, symSize: 0x0 }
-  - { offset: 0xCDA15, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV12twitterIconsACvpZ', symObjAddr: 0x1D190, symBinAddr: 0xD7558, symSize: 0x0 }
-  - { offset: 0xCDA30, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV15mastercardIconsACvpZ', symObjAddr: 0x1D1A8, symBinAddr: 0xD7570, symSize: 0x0 }
-  - { offset: 0xCDA4B, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9visaIconsACvpZ', symObjAddr: 0x1D1C0, symBinAddr: 0xD7588, symSize: 0x0 }
+  - { offset: 0xCD0D8, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App14resourceBundle33_F1DEFCEE0F3DC2CBE0EF6D1122BB40ECLLSo8NSBundleCvp', symObjAddr: 0x1C498, symBinAddr: 0xD43D8, symSize: 0x0 }
+  - { offset: 0xCD0F2, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV12addPlusIconsACvpZ', symObjAddr: 0x1C950, symBinAddr: 0xD6CE8, symSize: 0x0 }
+  - { offset: 0xCD1D2, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV14addToCartIconsACvpZ', symObjAddr: 0x1C968, symBinAddr: 0xD6D00, symSize: 0x0 }
+  - { offset: 0xCD1EC, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23addToCart2SelectedIconsACvpZ', symObjAddr: 0x1C980, symBinAddr: 0xD6D18, symSize: 0x0 }
+  - { offset: 0xCD206, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV25addToCart2UnselectedIconsACvpZ', symObjAddr: 0x1C998, symBinAddr: 0xD6D30, symSize: 0x0 }
+  - { offset: 0xCD220, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV24addToCartUnselectedIconsACvpZ', symObjAddr: 0x1C9B0, symBinAddr: 0xD6D48, symSize: 0x0 }
+  - { offset: 0xCD23A, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV21addToCatSelectedIconsACvpZ', symObjAddr: 0x1C9C8, symBinAddr: 0xD6D60, symSize: 0x0 }
+  - { offset: 0xCD254, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV12appLogoIconsACvpZ', symObjAddr: 0x1C9E0, symBinAddr: 0xD6D78, symSize: 0x0 }
+  - { offset: 0xCD26E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV13appTitleIconsACvpZ', symObjAddr: 0x1C9F8, symBinAddr: 0xD6D90, symSize: 0x0 }
+  - { offset: 0xCD288, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV15backButtonIconsACvpZ', symObjAddr: 0x1CA10, symBinAddr: 0xD6DA8, symSize: 0x0 }
+  - { offset: 0xCD2A2, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV8bagBlackACvpZ', symObjAddr: 0x1CA28, symBinAddr: 0xD6DC0, symSize: 0x0 }
+  - { offset: 0xCD2BC, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV8bagGreenACvpZ', symObjAddr: 0x1CA40, symBinAddr: 0xD6DD8, symSize: 0x0 }
+  - { offset: 0xCD2D6, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9bagOrangeACvpZ', symObjAddr: 0x1CA58, symBinAddr: 0xD6DF0, symSize: 0x0 }
+  - { offset: 0xCD2F0, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV6bagRedACvpZ', symObjAddr: 0x1CA70, symBinAddr: 0xD6E08, symSize: 0x0 }
+  - { offset: 0xCD30A, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9bagVioletACvpZ', symObjAddr: 0x1CA88, symBinAddr: 0xD6E20, symSize: 0x0 }
+  - { offset: 0xCD324, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9bagYellowACvpZ', symObjAddr: 0x1CAA0, symBinAddr: 0xD6E38, symSize: 0x0 }
+  - { offset: 0xCD33E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9bikeLightACvpZ', symObjAddr: 0x1CAB8, symBinAddr: 0xD6E50, symSize: 0x0 }
+  - { offset: 0xCD358, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23blackColorSelectedIconsACvpZ', symObjAddr: 0x1CAD0, symBinAddr: 0xD6E68, symSize: 0x0 }
+  - { offset: 0xCD372, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV25blackColorUnSelectedIconsACvpZ', symObjAddr: 0x1CAE8, symBinAddr: 0xD6E80, symSize: 0x0 }
+  - { offset: 0xCD38C, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV22blueColorSelectedIconsACvpZ', symObjAddr: 0x1CB00, symBinAddr: 0xD6E98, symSize: 0x0 }
+  - { offset: 0xCD3A6, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV24blueColorUnSelectedIconsACvpZ', symObjAddr: 0x1CB18, symBinAddr: 0xD6EB0, symSize: 0x0 }
+  - { offset: 0xCD3C0, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV14cartEmptyIconsACvpZ', symObjAddr: 0x1CB30, symBinAddr: 0xD6EC8, symSize: 0x0 }
+  - { offset: 0xCD3DA, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV20catalogSelectedIconsACvpZ', symObjAddr: 0x1CB48, symBinAddr: 0xD6EE0, symSize: 0x0 }
+  - { offset: 0xCD3F4, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV22catalogUnselectedIconsACvpZ', symObjAddr: 0x1CB60, symBinAddr: 0xD6EF8, symSize: 0x0 }
+  - { offset: 0xCD40E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV21checkBoxSelectedIconsACvpZ', symObjAddr: 0x1CB78, symBinAddr: 0xD6F10, symSize: 0x0 }
+  - { offset: 0xCD428, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23checkBoxUnselectedIconsACvpZ', symObjAddr: 0x1CB90, symBinAddr: 0xD6F28, symSize: 0x0 }
+  - { offset: 0xCD442, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV16clearButtonIconsACvpZ', symObjAddr: 0x1CBA8, symBinAddr: 0xD6F40, symSize: 0x0 }
+  - { offset: 0xCD45C, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11deleteIconsACvpZ', symObjAddr: 0x1CBC0, symBinAddr: 0xD6F58, symSize: 0x0 }
+  - { offset: 0xCD476, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV22drawingBackgroundIconsACvpZ', symObjAddr: 0x1CBD8, symBinAddr: 0xD6F70, symSize: 0x0 }
+  - { offset: 0xCD490, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11faceIdIconsACvpZ', symObjAddr: 0x1CBF0, symBinAddr: 0xD6F88, symSize: 0x0 }
+  - { offset: 0xCD4AA, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV13facebookIconsACvpZ', symObjAddr: 0x1CC08, symBinAddr: 0xD6FA0, symSize: 0x0 }
+  - { offset: 0xCD4C4, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV17forwordArrowIconsACvpZ', symObjAddr: 0x1CC20, symBinAddr: 0xD6FB8, symSize: 0x0 }
+  - { offset: 0xCD4DE, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV15grayButtonIconsACvpZ', symObjAddr: 0x1CC38, symBinAddr: 0xD6FD0, symSize: 0x0 }
+  - { offset: 0xCD4F8, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV22grayColorSelectedIconsACvpZ', symObjAddr: 0x1CC50, symBinAddr: 0xD6FE8, symSize: 0x0 }
+  - { offset: 0xCD512, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV24grayColorUnSelectedIconsACvpZ', symObjAddr: 0x1CC68, symBinAddr: 0xD7000, symSize: 0x0 }
+  - { offset: 0xCD52C, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV18grayRoundViewIconsACvpZ', symObjAddr: 0x1CC80, symBinAddr: 0xD7018, symSize: 0x0 }
+  - { offset: 0xCD546, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV16greenButtonIconsACvpZ', symObjAddr: 0x1CC98, symBinAddr: 0xD7030, symSize: 0x0 }
+  - { offset: 0xCD560, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23greenColorSelectedIconsACvpZ', symObjAddr: 0x1CCB0, symBinAddr: 0xD7048, symSize: 0x0 }
+  - { offset: 0xCD57A, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV25greenColorUnselectedIconsACvpZ', symObjAddr: 0x1CCC8, symBinAddr: 0xD7060, symSize: 0x0 }
+  - { offset: 0xCD594, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV19greenRoundViewIconsACvpZ', symObjAddr: 0x1CCE0, symBinAddr: 0xD7078, symSize: 0x0 }
+  - { offset: 0xCD5AE, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV10jacketBlueACvpZ', symObjAddr: 0x1CCF8, symBinAddr: 0xD7090, symSize: 0x0 }
+  - { offset: 0xCD5C8, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11jacketBrownACvpZ', symObjAddr: 0x1CD10, symBinAddr: 0xD70A8, symSize: 0x0 }
+  - { offset: 0xCD5E2, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV10jacketGrayACvpZ', symObjAddr: 0x1CD28, symBinAddr: 0xD70C0, symSize: 0x0 }
+  - { offset: 0xCD5FC, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11jacketGreenACvpZ', symObjAddr: 0x1CD40, symBinAddr: 0xD70D8, symSize: 0x0 }
+  - { offset: 0xCD616, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV10jacketPinkACvpZ', symObjAddr: 0x1CD58, symBinAddr: 0xD70F0, symSize: 0x0 }
+  - { offset: 0xCD630, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9jacketRedACvpZ', symObjAddr: 0x1CD70, symBinAddr: 0xD7108, symSize: 0x0 }
+  - { offset: 0xCD64A, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV13linkedinIconsACvpZ', symObjAddr: 0x1CD88, symBinAddr: 0xD7120, symSize: 0x0 }
+  - { offset: 0xCD664, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9menuIconsACvpZ', symObjAddr: 0x1CDA0, symBinAddr: 0xD7138, symSize: 0x0 }
+  - { offset: 0xCD67E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV21plusMoreSelectedIconsACvpZ', symObjAddr: 0x1CDB8, symBinAddr: 0xD7150, symSize: 0x0 }
+  - { offset: 0xCD698, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23plusMoreUnselectedIconsACvpZ', symObjAddr: 0x1CDD0, symBinAddr: 0xD7168, symSize: 0x0 }
+  - { offset: 0xCD6B2, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV16ponyExpressIconsACvpZ', symObjAddr: 0x1CDE8, symBinAddr: 0xD7180, symSize: 0x0 }
+  - { offset: 0xCD6CC, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV7qrIconsACvpZ', symObjAddr: 0x1CE00, symBinAddr: 0xD7198, symSize: 0x0 }
+  - { offset: 0xCD6E6, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV17questionMarkIconsACvpZ', symObjAddr: 0x1CE18, symBinAddr: 0xD71B0, symSize: 0x0 }
+  - { offset: 0xCD700, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV14redButtonIconsACvpZ', symObjAddr: 0x1CE30, symBinAddr: 0xD71C8, symSize: 0x0 }
+  - { offset: 0xCD71A, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV21redColorSelectedIconsACvpZ', symObjAddr: 0x1CE48, symBinAddr: 0xD71E0, symSize: 0x0 }
+  - { offset: 0xCD734, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23redColorUnSelectedIconsACvpZ', symObjAddr: 0x1CE60, symBinAddr: 0xD71F8, symSize: 0x0 }
+  - { offset: 0xCD74E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV17redRoundViewIconsACvpZ', symObjAddr: 0x1CE78, symBinAddr: 0xD7210, symSize: 0x0 }
+  - { offset: 0xCD768, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV10robotIconsACvpZ', symObjAddr: 0x1CE90, symBinAddr: 0xD7228, symSize: 0x0 }
+  - { offset: 0xCD782, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV15saveButtonIconsACvpZ', symObjAddr: 0x1CEA8, symBinAddr: 0xD7240, symSize: 0x0 }
+  - { offset: 0xCD79C, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV19searchNotFoundIconsACvpZ', symObjAddr: 0x1CEC0, symBinAddr: 0xD7258, symSize: 0x0 }
+  - { offset: 0xCD7B6, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11shirtOrangeACvpZ', symObjAddr: 0x1CED8, symBinAddr: 0xD7270, symSize: 0x0 }
+  - { offset: 0xCD7D0, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9shirtPinkACvpZ', symObjAddr: 0x1CEF0, symBinAddr: 0xD7288, symSize: 0x0 }
+  - { offset: 0xCD7EA, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11shirtPurpleACvpZ', symObjAddr: 0x1CF08, symBinAddr: 0xD72A0, symSize: 0x0 }
+  - { offset: 0xCD804, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV8shirtRedACvpZ', symObjAddr: 0x1CF20, symBinAddr: 0xD72B8, symSize: 0x0 }
+  - { offset: 0xCD81E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV14shirtRedOnesieACvpZ', symObjAddr: 0x1CF38, symBinAddr: 0xD72D0, symSize: 0x0 }
+  - { offset: 0xCD838, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV14shirtTurquoiseACvpZ', symObjAddr: 0x1CF50, symBinAddr: 0xD72E8, symSize: 0x0 }
+  - { offset: 0xCD852, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11shirtYellowACvpZ', symObjAddr: 0x1CF68, symBinAddr: 0xD7300, symSize: 0x0 }
+  - { offset: 0xCD86C, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV22sortNameAscendingIconsACvpZ', symObjAddr: 0x1CF80, symBinAddr: 0xD7318, symSize: 0x0 }
+  - { offset: 0xCD886, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23sortNameDescendingIconsACvpZ', symObjAddr: 0x1CF98, symBinAddr: 0xD7330, symSize: 0x0 }
+  - { offset: 0xCD8A0, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV23sortPriceAscendingIconsACvpZ', symObjAddr: 0x1CFB0, symBinAddr: 0xD7348, symSize: 0x0 }
+  - { offset: 0xCD8BA, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV24sortPriceDescendingIconsACvpZ', symObjAddr: 0x1CFC8, symBinAddr: 0xD7360, symSize: 0x0 }
+  - { offset: 0xCD8D4, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV17sortSelectedIconsACvpZ', symObjAddr: 0x1CFE0, symBinAddr: 0xD7378, symSize: 0x0 }
+  - { offset: 0xCD8EE, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV17starSelectedIconsACvpZ', symObjAddr: 0x1CFF8, symBinAddr: 0xD7390, symSize: 0x0 }
+  - { offset: 0xCD908, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV19starUnSelectedIconsACvpZ', symObjAddr: 0x1D010, symBinAddr: 0xD73A8, symSize: 0x0 }
+  - { offset: 0xCD922, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV18subtractMinusIconsACvpZ', symObjAddr: 0x1D028, symBinAddr: 0xD73C0, symSize: 0x0 }
+  - { offset: 0xCD93D, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV19switchSelectedIconsACvpZ', symObjAddr: 0x1D040, symBinAddr: 0xD73D8, symSize: 0x0 }
+  - { offset: 0xCD958, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV21switchUnselectedIconsACvpZ', symObjAddr: 0x1D058, symBinAddr: 0xD73F0, symSize: 0x0 }
+  - { offset: 0xCD973, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11tShirtBlackACvpZ', symObjAddr: 0x1D070, symBinAddr: 0xD7408, symSize: 0x0 }
+  - { offset: 0xCD98E, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV10tShirtBlueACvpZ', symObjAddr: 0x1D088, symBinAddr: 0xD7420, symSize: 0x0 }
+  - { offset: 0xCD9A9, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV11tShirtGreenACvpZ', symObjAddr: 0x1D0A0, symBinAddr: 0xD7438, symSize: 0x0 }
+  - { offset: 0xCD9C4, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9tShirtRedACvpZ', symObjAddr: 0x1D0B8, symBinAddr: 0xD7450, symSize: 0x0 }
+  - { offset: 0xCD9DF, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV12tShirtYellowACvpZ', symObjAddr: 0x1D0D0, symBinAddr: 0xD7468, symSize: 0x0 }
+  - { offset: 0xCD9FA, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9tickIconsACvpZ', symObjAddr: 0x1D0E8, symBinAddr: 0xD7480, symSize: 0x0 }
+  - { offset: 0xCDA15, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV12twitterIconsACvpZ', symObjAddr: 0x1D100, symBinAddr: 0xD7498, symSize: 0x0 }
+  - { offset: 0xCDA30, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV15mastercardIconsACvpZ', symObjAddr: 0x1D118, symBinAddr: 0xD74B0, symSize: 0x0 }
+  - { offset: 0xCDA4B, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV9visaIconsACvpZ', symObjAddr: 0x1D130, symBinAddr: 0xD74C8, symSize: 0x0 }
   - { offset: 0xCDAC5, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App14resourceBundle33_F1DEFCEE0F3DC2CBE0EF6D1122BB40ECLL_WZ', symObjAddr: 0xBC, symBinAddr: 0x8F59C, symSize: 0x44 }
   - { offset: 0xCDADF, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App14resourceBundle33_F1DEFCEE0F3DC2CBE0EF6D1122BB40ECLLSo8NSBundleCvau', symObjAddr: 0x144, symBinAddr: 0x8F624, symSize: 0x54 }
   - { offset: 0xCDAFD, size: 0x8, addend: 0x0, symName: '_$s11My_Demo_App13ImageResourceV12addPlusIcons_WZ', symObjAddr: 0x198, symBinAddr: 0x8F678, symSize: 0x74 }

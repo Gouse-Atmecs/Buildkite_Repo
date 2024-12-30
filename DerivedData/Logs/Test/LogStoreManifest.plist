@@ -6,10 +6,10 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>AFF7A8ED-6EB6-41B9-AA2E-F2ED1B3C92B9</key>
+		<key>3A9BAA99-FABE-4FBD-AA95-3EDBCE4CCFCA</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>F69632C1-1E50-4F46-AA5F-51CC6E392048</string>
+			<string>1F1A903C-3CE2-4896-A1AB-EE07A6719CF1</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -21,7 +21,7 @@
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
-				<integer>6</integer>
+				<integer>2</integer>
 			</dict>
 			<key>className</key>
 			<string>IDESchemeActionsInvocationRecord</string>
@@ -30,7 +30,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.unit.cocoaUnitTest</string>
 			<key>fileName</key>
-			<string>Test-MyDemoAppUITests-2024.12.26_17-23-15-+0530.xcresult</string>
+			<string>Test-MyDemoAppUITests-2024.12.30_09-20-54-+0530.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasCoverageData</key>
@@ -50,7 +50,7 @@
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
-				<integer>6</integer>
+				<integer>2</integer>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>My Demo App project</string>
@@ -61,18 +61,18 @@
 			<key>signature</key>
 			<string>Test MyDemoAppUITests</string>
 			<key>timeStartedRecording</key>
-			<real>756906795.02566504</real>
+			<real>757223454.25279999</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Test MyDemoAppUITests</string>
 			<key>uniqueIdentifier</key>
-			<string>AFF7A8ED-6EB6-41B9-AA2E-F2ED1B3C92B9</string>
+			<string>3A9BAA99-FABE-4FBD-AA95-3EDBCE4CCFCA</string>
 		</dict>
-		<key>F8E28F86-FB37-4069-B6E4-8072D075B3BB</key>
+		<key>8BDE46A2-996E-49CB-B9D1-ED754C178B39</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>E61147C1-14B8-4537-8FAD-A576063315D8</string>
+			<string>9B70D638-F777-4838-911A-2713A4CDBAE7</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -93,7 +93,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.unit.cocoaUnitTest</string>
 			<key>fileName</key>
-			<string>Test-MyDemoAppUITests-2024.12.26_17-26-05-+0530.xcresult</string>
+			<string>Test-MyDemoAppUITests(Sanity)-2024.12.30_09-24-32-+0530.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasCoverageData</key>
@@ -105,7 +105,7 @@
 				<key>highLevelStatus</key>
 				<string>W</string>
 				<key>totalCodeCoverage</key>
-				<real>0.34966809839906288</real>
+				<real>0.35044904334244437</real>
 				<key>totalNumberOfAnalyzerIssues</key>
 				<integer>0</integer>
 				<key>totalNumberOfErrors</key>
@@ -118,19 +118,19 @@
 			<key>schemeIdentifier-containerName</key>
 			<string>My Demo App project</string>
 			<key>schemeIdentifier-schemeName</key>
-			<string>MyDemoAppUITests</string>
+			<string>MyDemoAppUITests(Sanity)</string>
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Test MyDemoAppUITests</string>
+			<string>Test MyDemoAppUITests(Sanity)</string>
 			<key>timeStartedRecording</key>
-			<real>756906965.89881599</real>
+			<real>757223672.15159297</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
-			<string>Test MyDemoAppUITests</string>
+			<string>Test MyDemoAppUITests(Sanity)</string>
 			<key>uniqueIdentifier</key>
-			<string>F8E28F86-FB37-4069-B6E4-8072D075B3BB</string>
+			<string>8BDE46A2-996E-49CB-B9D1-ED754C178B39</string>
 		</dict>
 	</dict>
 </dict>

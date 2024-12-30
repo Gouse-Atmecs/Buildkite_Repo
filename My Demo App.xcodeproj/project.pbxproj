@@ -462,7 +462,6 @@
 			children = (
 				2F45FB4326F1CC0100A13B16 /* My Demo App */,
 				A2C826A92706266600616582 /* MyDemoAppUITests */,
-				A2C826AC2706266600616582 /* Info.plist */,
 				2F45FB4226F1CC0100A13B16 /* Products */,
 				00ADF45586AA15CD74704D86 /* Pods */,
 				98B495C95C2D44BB34FF6F13 /* Frameworks */,
@@ -594,6 +593,7 @@
 		A2C826A92706266600616582 /* MyDemoAppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				A2C826AC2706266600616582 /* Info.plist */,
 				255B76DD2CFF2BF300DFCC58 /* SessionManager */,
 				25BE8B642CF86DAC00161180 /* Verification */,
 				25BE8B3D2CF86D8D00161180 /* TestData */,

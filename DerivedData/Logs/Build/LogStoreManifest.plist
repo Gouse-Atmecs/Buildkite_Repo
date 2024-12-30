@@ -6,7 +6,7 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>E61147C1-14B8-4537-8FAD-A576063315D8</key>
+		<key>1F1A903C-3CE2-4896-A1AB-EE07A6719CF1</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E61147C1-14B8-4537-8FAD-A576063315D8.xcactivitylog</string>
+			<string>1F1A903C-3CE2-4896-A1AB-EE07A6719CF1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -40,15 +40,15 @@
 			<key>signature</key>
 			<string>Testing workspace My Demo App with scheme MyDemoAppUITests</string>
 			<key>timeStartedRecording</key>
-			<real>756906965.89836395</real>
+			<real>757223454.25239301</real>
 			<key>timeStoppedRecording</key>
-			<real>756906966.90498495</real>
+			<real>757223455.06309998</real>
 			<key>title</key>
 			<string>Testing workspace My Demo App with scheme MyDemoAppUITests</string>
 			<key>uniqueIdentifier</key>
-			<string>E61147C1-14B8-4537-8FAD-A576063315D8</string>
+			<string>1F1A903C-3CE2-4896-A1AB-EE07A6719CF1</string>
 		</dict>
-		<key>F69632C1-1E50-4F46-AA5F-51CC6E392048</key>
+		<key>9B70D638-F777-4838-911A-2713A4CDBAE7</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -57,7 +57,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>F69632C1-1E50-4F46-AA5F-51CC6E392048.xcactivitylog</string>
+			<string>9B70D638-F777-4838-911A-2713A4CDBAE7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -71,24 +71,24 @@
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
-				<integer>6</integer>
+				<integer>2</integer>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>My Demo App project</string>
 			<key>schemeIdentifier-schemeName</key>
-			<string>MyDemoAppUITests</string>
+			<string>MyDemoAppUITests(Sanity)</string>
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Testing workspace My Demo App with scheme MyDemoAppUITests</string>
+			<string>Testing workspace My Demo App with scheme MyDemoAppUITests(Sanity)</string>
 			<key>timeStartedRecording</key>
-			<real>756906795.02512503</real>
+			<real>757223672.151227</real>
 			<key>timeStoppedRecording</key>
-			<real>756906805.25228095</real>
+			<real>757223672.94358397</real>
 			<key>title</key>
-			<string>Testing workspace My Demo App with scheme MyDemoAppUITests</string>
+			<string>Testing workspace My Demo App with scheme MyDemoAppUITests(Sanity)</string>
 			<key>uniqueIdentifier</key>
-			<string>F69632C1-1E50-4F46-AA5F-51CC6E392048</string>
+			<string>9B70D638-F777-4838-911A-2713A4CDBAE7</string>
 		</dict>
 	</dict>
 </dict>

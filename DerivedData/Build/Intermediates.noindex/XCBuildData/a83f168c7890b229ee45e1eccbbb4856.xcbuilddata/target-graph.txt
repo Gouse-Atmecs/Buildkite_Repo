@@ -1,0 +1,14 @@
+Target dependency graph (6 targets)
+Target 'MyDemoAppUITests' in project 'My Demo App'
+➜ Explicit dependency on target 'My Demo App' in project 'My Demo App'
+Target 'My Demo App' in project 'My Demo App'
+➜ Implicit dependency on target 'Pods-My Demo App' in project 'Pods' via file 'Pods_My_Demo_App.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'EasyTipView' in project 'Pods' via options '-framework EasyTipView' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'FormTextField' in project 'Pods' via options '-framework FormTextField' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-My Demo App' in project 'Pods'
+➜ Explicit dependency on target 'EasyTipView' in project 'Pods'
+➜ Explicit dependency on target 'FormTextField' in project 'Pods'
+➜ Explicit dependency on target 'TestFairy' in project 'Pods'
+Target 'TestFairy' in project 'Pods' (no dependencies)
+Target 'FormTextField' in project 'Pods' (no dependencies)
+Target 'EasyTipView' in project 'Pods' (no dependencies)

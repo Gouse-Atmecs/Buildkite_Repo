@@ -13,27 +13,56 @@
 				<key>testMultipleItemsCheckOut</key>
 				<dict>
 					<key>mrnet</key>
-					<real>33.117232084274292</real>
+					<real>32.395556926727295</real>
 				</dict>
 				<key>testRegression_AddRemoveItemsFromCart</key>
 				<dict>
 					<key>mrnet</key>
-					<real>20.377533912658691</real>
+					<real>19.663766026496887</real>
 				</dict>
 				<key>testSanity_AddRemoveItemsFromCart</key>
 				<dict>
 					<key>mrnet</key>
-					<real>20.239746928215027</real>
+					<real>19.729251027107239</real>
 				</dict>
 				<key>testSanity_VerifyItemRemovalFromCart</key>
 				<dict>
 					<key>mrnet</key>
-					<real>14.41209602355957</real>
+					<real>14.143619060516357</real>
 				</dict>
 				<key>testSmoke_VerifyCheckOutWithEmptyCart</key>
 				<dict>
 					<key>mrnet</key>
-					<real>11.800886988639832</real>
+					<real>11.83488392829895</real>
+				</dict>
+			</dict>
+			<key>LoginScenarioTests</key>
+			<dict>
+				<key>testEmptyLogin</key>
+				<dict>
+					<key>mrnet</key>
+					<real>5.9540441036224365</real>
+				</dict>
+				<key>testLoginAndItemPurchase</key>
+				<dict>
+					<key>mrnet</key>
+					<real>28.143977999687195</real>
+				</dict>
+			</dict>
+			<key>LogoutVerificationTests</key>
+			<dict>
+				<key>testSanity_LogoutFunctionality</key>
+				<dict>
+					<key>mrnet</key>
+					<real>10.907974004745483</real>
+				</dict>
+			</dict>
+			<key>ProductDetailsTests</key>
+			<dict>
+				<key>testSanity_ProductDetails</key>
+				<dict>
+					<key>mrnet</key>
+					<real>4.8210599422454834</real>
 				</dict>
 			</dict>
 		</dict>
