@@ -1,33 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1610"
-   version = "2.2">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES"
       buildArchitectures = "Automatic">
-      <BuildActionEntries>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <TestPlanReference
-               reference = "container:../../airmobile/MyDemoAppUITests.xctestplan">
-            </TestPlanReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <TestPlanReference
-               reference = "container:../../airmobile/MyDemoAppUITests.xctestplan">
-            </TestPlanReference>
-         </BuildActionEntry>
-      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -36,17 +14,8 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:../../airmobile/MyDemoAppUITests.xctestplan"
+            reference = "container:MyDemoAppUITestsNew.xctestplan"
             default = "YES">
-         </TestPlanReference>
-         <TestPlanReference
-            reference = "container:../../airmobile/MyDemoAppUITests(Regression).xctestplan">
-         </TestPlanReference>
-         <TestPlanReference
-            reference = "container:../../airmobile/MyDemoAppUITests(Sanity).xctestplan">
-         </TestPlanReference>
-         <TestPlanReference
-            reference = "container:../../airmobile/MyDemoAppUITests(Smoke).xctestplan">
          </TestPlanReference>
       </TestPlans>
       <Testables>
@@ -79,15 +48,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A2C826A72706266600616582"
-            BuildableName = "MyDemoAppUITests.xctest"
-            BlueprintName = "MyDemoAppUITests"
-            ReferencedContainer = "container:My Demo App.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

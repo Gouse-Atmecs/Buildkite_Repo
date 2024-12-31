@@ -26,7 +26,7 @@ namespace :custom_tests do
       # Parallel testing on both simulators
       [DESTINATION_1, DESTINATION_2].each_with_index do |destination, index|
         fork do
-          test_command = build_test_command('MyDemoAppUITests', destination)  # Default scheme name
+          test_command = build_test_command('MyDemoAppUITestsNew', destination)  # Default scheme name
           test_command += " -only-testing:'#{args[:test_class]}/#{args[:test_method]}'"
           puts "Running single test: #{args[:test_class]}##{args[:test_method]} on Simulator #{destination} (Task #{index+1})"
           system(test_command)
@@ -46,7 +46,7 @@ namespace :custom_tests do
       # Parallel testing on both simulators
       [DESTINATION_1, DESTINATION_2].each_with_index do |destination, index|
         fork do
-          test_command = build_test_command('MyDemoAppUITests', destination)  # Default scheme name
+          test_command = build_test_command('MyDemoAppUITestsNew', destination)  # Default scheme name
           test_command += " -only-testing:'#{args[:test_class]}'"
           puts "Running all tests in class: #{args[:test_class]} on Simulator #{destination} (Task #{index+1})"
           system(test_command)
@@ -65,9 +65,9 @@ namespace :custom_tests do
     # Parallel testing on both simulators
     [DESTINATION_1, DESTINATION_2].each_with_index do |destination, index|
       fork do
-        test_command = build_test_command('MyDemoAppUITests', destination)  # Default scheme name
-        test_command += " -only-testing:MyDemoAppUITests/CartAndCheckoutFlowTests/testMultipleItemsCheckOut"
-        test_command += " -only-testing:MyDemoAppUITests/CartAndCheckoutFlowTests/testSmoke_VerifyCheckOutWithEmptyCart"
+        test_command = build_test_command('MyDemoAppUITestsNew', destination)  # Default scheme name
+        test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testMultipleItemsCheckOut"
+        test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testSmoke_VerifyCheckOutWithEmptyCart"
         puts "Running multiple tests on Simulator #{destination} (Task #{index+1})"
         system(test_command)
       end
@@ -81,10 +81,10 @@ namespace :custom_tests do
     # Parallel testing on both simulators
     [DESTINATION_1, DESTINATION_2].each_with_index do |destination, index|
       fork do
-        test_command = build_test_command('MyDemoAppUITests', destination)  # Default scheme name
-        test_command += " -only-testing:MyDemoAppUITests/CartAndCheckoutFlowTests/testMultipleItemsCheckOut"
-        test_command += " -only-testing:MyDemoAppUITests/CartAndCheckoutFlowTests/testSmoke_VerifyCheckOutWithEmptyCart"
-        test_command += " -only-testing:MyDemoAppUITests/ProductDetailsTests/testSanity_ProductDetails"
+        test_command = build_test_command('MyDemoAppUITestsNew', destination)  # Default scheme name
+        test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testMultipleItemsCheckOut"
+        test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testSmoke_VerifyCheckOutWithEmptyCart"
+        test_command += " -only-testing:MyDemoAppUITestsNew/ProductDetailsTests/testSanity_ProductDetails"
         puts "Running multiple tests on Simulator #{destination} (Task #{index+1})"
         system(test_command)
       end

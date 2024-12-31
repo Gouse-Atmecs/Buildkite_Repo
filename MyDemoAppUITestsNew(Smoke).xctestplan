@@ -1,0 +1,34 @@
+{
+  "configurations" : [
+    {
+      "id" : "3EB2303C-B6CB-4BE4-8D46-9FCD4F341562",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "CartAndCheckoutFlowTests\/testMultipleItemsCheckOut()",
+        "CartAndCheckoutFlowTests\/testSanity_AddRemoveItemsFromCart()",
+        "LoginScenarioTests\/testEmptyLogin()",
+        "LoginScenarioTests\/testLoginFailedWithInvalidCredential()",
+        "LogoutVerificationTests",
+        "LogoutVerificationTests\/testSanity_LogoutFunctionality()",
+        "SocialMediaButtonsRedirectionTests",
+        "SocialMediaButtonsRedirectionTests\/testSocialMediaButtonRedirection()"
+      ],
+      "target" : {
+        "containerPath" : "container:My Demo App.xcodeproj",
+        "identifier" : "A2C826A72706266600616582",
+        "name" : "MyDemoAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

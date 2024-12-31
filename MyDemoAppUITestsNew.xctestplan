@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "A2EEC179-7244-4778-9F01-5D0F9CC63E3B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "LoginScenarioTests\/testLoginFailedWithInvalidCredential()",
+        "SocialMediaButtonsRedirectionTests\/testSocialMediaButtonRedirection()"
+      ],
+      "target" : {
+        "containerPath" : "container:My Demo App.xcodeproj",
+        "identifier" : "A2C826A72706266600616582",
+        "name" : "MyDemoAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
