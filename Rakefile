@@ -66,8 +66,8 @@ namespace :custom_tests do
     [DESTINATION_1, DESTINATION_2].each_with_index do |destination, index|
       fork do
         test_command = build_test_command('MyDemoAppUITestsNew', destination)  # Default scheme name
-        test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testMultipleItemsCheckOut"
-        test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testVerifyCheckOutWithEmptyCart"
+        test_command += " -only-testing:MyDemoAppUITests/CartAndCheckoutFlowTests/testMultipleItemsCheckOut"
+        test_command += " -only-testing:MyDemoAppUITests/CartAndCheckoutFlowTests/testVerifyCheckOutWithEmptyCart"
         puts "Running multiple tests on Simulator #{destination} (Task #{index+1})"
         system(test_command)
       end
@@ -82,9 +82,9 @@ namespace :custom_tests do
     [DESTINATION_1, DESTINATION_2].each_with_index do |destination, index|
       fork do
         test_command = build_test_command('MyDemoAppUITestsNew', destination)  # Default scheme name
-        test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testMultipleItemsCheckOut"
-        test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testVerifyCheckOutWithEmptyCart"
-        test_command += " -only-testing:MyDemoAppUITestsNew/ProductDetailsTests/testProductDetails"
+        test_command += " -only-testing:MyDemoAppUITests/CartAndCheckoutFlowTests/testMultipleItemsCheckOut"
+        test_command += " -only-testing:MyDemoAppUITests/CartAndCheckoutFlowTests/testVerifyCheckOutWithEmptyCart"
+        test_command += " -only-testing:MyDemoAppUITests/ProductDetailsTests/testProductDetails"
         puts "Running multiple tests on Simulator #{destination} (Task #{index+1})"
         system(test_command)
       end
