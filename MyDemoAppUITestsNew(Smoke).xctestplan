@@ -16,6 +16,7 @@
       "skippedTests" : [
         "CartAndCheckoutFlowTests\/testMultipleItemsCheckOut()",
         "CartAndCheckoutFlowTests\/testSanity_AddRemoveItemsFromCart()",
+        "CartAndCheckoutFlowTests\/testVerifyItemRemovalFromCart()",
         "LoginScenarioTests\/testEmptyLogin()",
         "LoginScenarioTests\/testLoginFailedWithInvalidCredential()",
         "LogoutVerificationTests",

@@ -86,7 +86,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
     }
 
 
-    func testSanity_VerifyItemRemovalFromCart() {
+    func testVerifyItemRemovalFromCart() {
         //Helpers.runIfTagged(with: "smoke,regression") {
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
@@ -114,7 +114,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
 
     ///This method defines verify the cart with no Items
 
-    func testSmoke_VerifyCheckOutWithEmptyCart() {
+    func testVerifyCheckOutWithEmptyCart() {
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
             homeScreen.tapOnMoreTab()
@@ -134,7 +134,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
 
     /// This method defines Add and Remove items from cart
 
-    func testRegression_AddRemoveItemsFromCart() {
+    func testAddRemoveItemsFromCart() {
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
             homeScreen.tapOnMoreTab()
@@ -157,28 +157,4 @@ final class CartAndCheckoutFlowTests: BaseTest {
             cartScreen.tapOnRemoveFromCartButton()
             TestLogger.shared.log("Test finished: \(self.name)")
     }
-  
-  func testSanity_AddRemoveItemsFromCart() {
-          TestLogger.shared.log("Test started: \(self.name)")
-          /// Login
-          homeScreen.tapOnMoreTab()
-          moreScreen.tapOnLogin()
-          loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
-          homeScreen.tapOnMoreTab()
-          VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
-          homeScreen.tapOnCatalogTab()
-          /// Add product to cart
-          let (procutName,productCost) = homeScreen.getItemDetails(at: firstItemIndex)
-          homeScreen.addToCart(index: firstItemIndex)
-          let productCostInCart:String = cartScreen.getProductPriceInString()
-          let productNameInCart:String = cartScreen.getProductNameString()
-          VerificationManager.validateTrue(for: procutName == productNameInCart)
-          VerificationManager.validateTrue(for: productCost == productCostInCart)
-          homeScreen.tapOnCatalogTab()
-          homeScreen.addToCart(index: secondItemIndex)
-          homeScreen.tapOnCatalogTab()
-          homeScreen.addToCart(index: thirdItemIndex)
-          cartScreen.tapOnRemoveFromCartButton()
-          TestLogger.shared.log("Test finished: \(self.name)")
-  }
 }

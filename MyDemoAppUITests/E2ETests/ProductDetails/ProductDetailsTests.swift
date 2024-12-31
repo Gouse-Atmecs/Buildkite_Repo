@@ -22,7 +22,7 @@ final class ProductDetailsTests: BaseTest{
         productDetailScreen = ProductDetailScreen(app: app)
     }
 
-    func testSanity_ProductDetails(){
+    func testProductDetails(){
             let productNameInHome: String  = homeScreen.getProductName()
             let productCostInHome: String = homeScreen.getProductPrice()
             homeScreen.tapOnProduct(index: 0)

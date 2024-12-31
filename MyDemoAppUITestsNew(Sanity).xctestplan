@@ -13,6 +13,18 @@
   },
   "testTargets" : [
     {
+      "skippedTests" : [
+        "CartAndCheckoutFlowTests\/testAddRemoveItemsFromCart()",
+        "CartAndCheckoutFlowTests\/testRegression_AddRemoveItemsFromCart()",
+        "CartAndCheckoutFlowTests\/testSanity_AddRemoveItemsFromCart()",
+        "CartAndCheckoutFlowTests\/testSmoke_VerifyCheckOutWithEmptyCart()",
+        "LoginScenarioTests\/testLoginAndItemPurchase()",
+        "LoginScenarioTests\/testLoginFailedWithInvalidCredential()",
+        "LogoutVerificationTests",
+        "LogoutVerificationTests\/testSanity_LogoutFunctionality()",
+        "SocialMediaButtonsRedirectionTests",
+        "SocialMediaButtonsRedirectionTests\/testSocialMediaButtonRedirection()"
+      ],
       "target" : {
         "containerPath" : "container:My Demo App.xcodeproj",
         "identifier" : "A2C826A72706266600616582",

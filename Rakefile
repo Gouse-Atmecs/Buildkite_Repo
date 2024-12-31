@@ -67,7 +67,7 @@ namespace :custom_tests do
       fork do
         test_command = build_test_command('MyDemoAppUITestsNew', destination)  # Default scheme name
         test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testMultipleItemsCheckOut"
-        test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testSmoke_VerifyCheckOutWithEmptyCart"
+        test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testVerifyCheckOutWithEmptyCart"
         puts "Running multiple tests on Simulator #{destination} (Task #{index+1})"
         system(test_command)
       end
@@ -83,8 +83,8 @@ namespace :custom_tests do
       fork do
         test_command = build_test_command('MyDemoAppUITestsNew', destination)  # Default scheme name
         test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testMultipleItemsCheckOut"
-        test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testSmoke_VerifyCheckOutWithEmptyCart"
-        test_command += " -only-testing:MyDemoAppUITestsNew/ProductDetailsTests/testSanity_ProductDetails"
+        test_command += " -only-testing:MyDemoAppUITestsNew/CartAndCheckoutFlowTests/testVerifyCheckOutWithEmptyCart"
+        test_command += " -only-testing:MyDemoAppUITestsNew/ProductDetailsTests/testProductDetails"
         puts "Running multiple tests on Simulator #{destination} (Task #{index+1})"
         system(test_command)
       end
@@ -98,7 +98,7 @@ namespace :custom_tests do
     # Parallel testing on both simulators
     [DESTINATION_1, DESTINATION_2].each_with_index do |destination, index|
       fork do
-        scheme = "MyDemoAppUITests(Regression)"
+        scheme = "MyDemoAppUITestsNew(Regression)"
         test_command = build_test_command(scheme, destination)
         puts "Running Regression tests on Simulator #{destination} (Task #{index+1})"
         system(test_command)
@@ -113,7 +113,7 @@ namespace :custom_tests do
     # Parallel testing on both simulators
     [DESTINATION_1, DESTINATION_2].each_with_index do |destination, index|
       fork do
-        scheme = "MyDemoAppUITests(Smoke)"
+        scheme = "MyDemoAppUITestsNew(Smoke)"
         test_command = build_test_command(scheme, destination)
         puts "Running Smoke tests on Simulator #{destination} (Task #{index+1})"
         system(test_command)
@@ -128,7 +128,7 @@ namespace :custom_tests do
     # Parallel testing on both simulators
     [DESTINATION_1, DESTINATION_2].each_with_index do |destination, index|
       fork do
-        scheme = "MyDemoAppUITests(Sanity)"
+        scheme = "MyDemoAppUITestsNew(Sanity)"
         test_command = build_test_command(scheme, destination)
         puts "Running Sanity tests on Simulator #{destination} (Task #{index+1})"
         system(test_command)

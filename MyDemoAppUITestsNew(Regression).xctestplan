@@ -14,12 +14,7 @@
   "testTargets" : [
     {
       "skippedTests" : [
-        "CartAndCheckoutFlowTests\/testRegression_AddRemoveItemsFromCart()",
-        "CartAndCheckoutFlowTests\/testSanity_AddRemoveItemsFromCart()",
-        "CartAndCheckoutFlowTests\/testSmoke_VerifyCheckOutWithEmptyCart()",
-        "LoginScenarioTests\/testLoginAndItemPurchase()",
         "LoginScenarioTests\/testLoginFailedWithInvalidCredential()",
-        "LogoutVerificationTests\/testSanity_LogoutFunctionality()",
         "SocialMediaButtonsRedirectionTests",
         "SocialMediaButtonsRedirectionTests\/testSocialMediaButtonRedirection()"
       ],
