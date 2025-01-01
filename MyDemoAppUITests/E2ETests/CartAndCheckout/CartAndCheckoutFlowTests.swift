@@ -48,7 +48,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
         userAddressTestData = Helpers.loadTestData(from: AppConstants.ADDRESS,ofType: UserAddressModel.self)
         userCardDetailsTestData = Helpers.loadTestData(from: AppConstants.CARD_DETAILS,ofType: UserCardDetailsModel.self)
     }
-  
+  #if SMOKE || REGRESSION
     func testMultipleItemsCheckOut() {
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
@@ -84,8 +84,8 @@ final class CartAndCheckoutFlowTests: BaseTest {
             checkoutCompleteScreen.tapOnCotinueShoppingButton()
             TestLogger.shared.log("Test finished: \(self.name)")
     }
-
-
+#endif
+  #if SANITY || REGRESSION
     func testVerifyItemRemovalFromCart() {
         //Helpers.runIfTagged(with: "smoke,regression") {
             TestLogger.shared.log("Test started: \(self.name)")
@@ -111,9 +111,9 @@ final class CartAndCheckoutFlowTests: BaseTest {
             TestLogger.shared.log("Test finished: \(self.name)")
        // }
     }
-
+#endif
     ///This method defines verify the cart with no Items
-
+  #if SMOKE || REGRESSION
     func testVerifyCheckOutWithEmptyCart() {
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
@@ -130,10 +130,10 @@ final class CartAndCheckoutFlowTests: BaseTest {
             VerificationManager.validateTrue(for: cartScreen.checkForNoItemsDescText())
             TestLogger.shared.log("Test finished: \(self.name)")
     }
-
+#endif
 
     /// This method defines Add and Remove items from cart
-
+  #if REGRESSION || SANITY
     func testAddRemoveItemsFromCart() {
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
@@ -157,4 +157,5 @@ final class CartAndCheckoutFlowTests: BaseTest {
             cartScreen.tapOnRemoveFromCartButton()
             TestLogger.shared.log("Test finished: \(self.name)")
     }
+#endif
 }

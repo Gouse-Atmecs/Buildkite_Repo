@@ -25,6 +25,10 @@ class LoginScreen : BaseScreen {
         enterPassword(password)
         tapOnLogin()
     }
+   
+   func checkForLoginButton() -> Bool {
+       return Helpers.isUIElementVisible(loginButton)
+   }
     
     /// Enters the username into the username text field.
     ///
@@ -65,8 +69,28 @@ class LoginScreen : BaseScreen {
         Helpers.tapOnElement(alertOk)
         TestLogger.shared.log("\(AppConstants.LOGIN_SCREEN): \(LogMessages.TAPPED_OK_BUTTON)")
     }
-    func checkForLoginButton() -> Bool {
-        return Helpers.isUIElementVisible(loginButton)
-    }
     
+   func checkforUserNameTextField() {
+      XCTAssertTrue(userNameTextField.exists, ErrorMessages.USERNAME_TEXTFIELD_MISSING)
+   }
+   
+   func checkForPasswordTextField() {
+      XCTAssertTrue(passwordTextField.exists, ErrorMessages.PASSWORD_TEXTFIELD_MISSING)
+   }
+   
+   func checkForLoginBtn() {
+      XCTAssertTrue(loginButton.exists, ErrorMessages.LOGIN_BUTTON_MISSING)
+   }
+   
+   func isUserNameTextFieldClickable() {
+      XCTAssertTrue(userNameTextField.isHittable, ErrorMessages.USERNAME_TEXTFIELD_NOT_VISIBLE)
+   }
+   
+   func isPasswordTextFieldClickable() {
+      XCTAssertTrue(passwordTextField.isHittable, ErrorMessages.PASSWORD_TEXTFIELD_NOT_VISIBLE)
+   }
+   
+   func isLoginBtnClickable() {
+      XCTAssertTrue(loginButton.isHittable, ErrorMessages.LOGIN_BUTTON_NOT_VISIBLE)
+   }
 }

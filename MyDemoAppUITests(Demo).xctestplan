@@ -1,7 +1,7 @@
 {
   "configurations" : [
     {
-      "id" : "140BAF14-295F-404B-B2D7-49C717AD8823",
+      "id" : "394ECCFF-647A-4E42-A1B3-B0444DD6A570",
       "name" : "Test Scheme Action",
       "options" : {
 
@@ -14,16 +14,19 @@
   "testTargets" : [
     {
       "skippedTests" : [
+        "CartAndCheckoutFlowTests",
         "CartAndCheckoutFlowTests\/testAddRemoveItemsFromCart()",
-        "CartAndCheckoutFlowTests\/testRegression_AddRemoveItemsFromCart()",
-        "CartAndCheckoutFlowTests\/testSanity_AddRemoveItemsFromCart()",
-        "CartAndCheckoutFlowTests\/testSmoke_VerifyCheckOutWithEmptyCart()",
-        "LoginScenarioTests\/testLoginAndItemPurchase()",
+        "CartAndCheckoutFlowTests\/testMultipleItemsCheckOut()",
+        "CartAndCheckoutFlowTests\/testVerifyCheckOutWithEmptyCart()",
+        "CartAndCheckoutFlowTests\/testVerifyItemRemovalFromCart()",
+        "LoginScenarioTests\/testEmptyLogin()",
         "LoginScenarioTests\/testLoginFailedWithInvalidCredential()",
         "LoginScenarioTests\/testLoginPageUIElementsInteraction()",
         "LoginScenarioTests\/testLoginPageUIElemetsExists()",
         "LogoutVerificationTests",
-        "LogoutVerificationTests\/testSanity_LogoutFunctionality()",
+        "LogoutVerificationTests\/testLogoutFunctionality()",
+        "ProductDetailsTests",
+        "ProductDetailsTests\/testProductDetails()",
         "SocialMediaButtonsRedirectionTests",
         "SocialMediaButtonsRedirectionTests\/testSocialMediaButtonRedirection()"
       ],

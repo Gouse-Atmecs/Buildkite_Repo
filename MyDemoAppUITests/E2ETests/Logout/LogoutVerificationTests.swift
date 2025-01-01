@@ -32,6 +32,7 @@ final class LogoutVerificationTests: BaseTest {
         userCredentialsTestData = Helpers.loadTestData(from: AppConstants.LOGIN,ofType: UserCredentialsTestDataModel.self)
     }
     /// This method defines Logout functinality
+    #if REGRESSION
     func testLogoutFunctionality() {
         ///Login
             homeScreen.tapOnMoreTab()
@@ -43,4 +44,5 @@ final class LogoutVerificationTests: BaseTest {
             /// Verifying whether user logged out succefully or not
             VerificationManager.validateTrue(for: loginScreen.checkForLoginButton())
     }
+#endif
 }

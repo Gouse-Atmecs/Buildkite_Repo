@@ -21,7 +21,7 @@ final class ProductDetailsTests: BaseTest{
         homeScreen = HomeScreen(app: app)
         productDetailScreen = ProductDetailScreen(app: app)
     }
-
+   #if SANITY || REGRESSION
     func testProductDetails(){
             let productNameInHome: String  = homeScreen.getProductName()
             let productCostInHome: String = homeScreen.getProductPrice()
@@ -32,5 +32,5 @@ final class ProductDetailsTests: BaseTest{
             VerificationManager.validateTrue(for: productCostInHome == productCostInDetails)
             productDetailScreen.tapOnBackButton()
     }
-
+#endif
 }

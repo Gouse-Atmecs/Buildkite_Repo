@@ -19,4 +19,7 @@
    <FileRef
       location = "group:MyDemoAppUITestsNew(Sanity).xctestplan">
    </FileRef>
+   <FileRef
+      location = "group:MyDemoAppUITests(Demo).xctestplan">
+   </FileRef>
 </Workspace>

@@ -31,6 +31,10 @@ struct ErrorMessages{
     static let LOADED_LOGIN_DATA_EMPTY = "Loaded login data is empty."
     static let FAIL_GETTING_RANDOM_CREDENTIALS = "Failed to get random login credentials."
     static let COLLECTION_VIEW_NOT_FOUND = "CollectionView not found or is not interactable."
-    
-    
+    static let USERNAME_TEXTFIELD_MISSING = "Username text field is missing on the login screen."
+   static let PASSWORD_TEXTFIELD_MISSING = "Password text field is missing on the login screen."
+   static let LOGIN_BUTTON_MISSING = "Login button is missing on the login screen."
+   static let USERNAME_TEXTFIELD_NOT_VISIBLE = "Username text field is not visible or interactable."
+   static let PASSWORD_TEXTFIELD_NOT_VISIBLE = "Password text field is not visible or interactable."
+   static let LOGIN_BUTTON_NOT_VISIBLE = "Login button is not visible or interactable."
 }

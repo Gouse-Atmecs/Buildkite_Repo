@@ -57,7 +57,35 @@ final class LoginScenarioTests: BaseTest {
         userAddressTestData = Helpers.loadTestData(from: AppConstants.ADDRESS,ofType: UserAddressModel.self)
         userCardDetailsTestData = Helpers.loadTestData(from: AppConstants.CARD_DETAILS,ofType: UserCardDetailsModel.self)
     }
-   //@TestCategory(wrappedValue: "Smoke")
+#if SMOKE || REGRESSION
+   func testLoginPageUIElemetsExists(){
+      TestLogger.shared.log("Test started: \(self.name)")
+      ///Display the Menu Items
+      homeScreen.tapOnMoreTab()
+      moreScreen.tapOnLogin()
+      ///Login Screen Check for elements existence
+      loginScreen.checkforUserNameTextField()
+      loginScreen.checkForPasswordTextField()
+      loginScreen.checkForLoginBtn()
+      TestLogger.shared.log("Test finished: \(self.name)")
+   }
+#endif
+   
+#if SMOKE || REGRESSION
+   func testLoginPageUIElementsInteraction(){
+      TestLogger.shared.log("Test started: \(self.name)")
+      ///Display the Menu Items
+      homeScreen.tapOnMoreTab()
+      moreScreen.tapOnLogin()
+      ///Login Screen Check for interactions
+      loginScreen.isUserNameTextFieldClickable()
+      loginScreen.isPasswordTextFieldClickable()
+      loginScreen.isLoginBtnClickable()
+      TestLogger.shared.log("Test finished: \(self.name)")
+   }
+#endif
+   
+   #if SMOKE || REGRESSION
     func testEmptyLogin(){
             TestLogger.shared.log("Test started: \(self.name)")
             homeScreen.tapOnMoreTab()
@@ -67,7 +95,9 @@ final class LoginScenarioTests: BaseTest {
             loginScreen.tapOnAlertOkBtn()
             TestLogger.shared.log("Test finished: \(self.name)")
     }
-   //@TestCategory(wrappedValue: "Regression")
+#endif
+   
+#if SANITY
     func testLoginAndItemPurchase(){
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
@@ -106,7 +136,7 @@ final class LoginScenarioTests: BaseTest {
             
             TestLogger.shared.log("Test finished: \(self.name)")
     }
-   
+#endif
     func testLoginFailedWithInvalidCredential(){
         TestLogger.shared.log("Test started: \(self.name)")
         homeScreen.tapOnMoreTab()
