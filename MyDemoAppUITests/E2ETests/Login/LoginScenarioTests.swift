@@ -57,7 +57,7 @@ final class LoginScenarioTests: BaseTest {
         userAddressTestData = Helpers.loadTestData(from: AppConstants.ADDRESS,ofType: UserAddressModel.self)
         userCardDetailsTestData = Helpers.loadTestData(from: AppConstants.CARD_DETAILS,ofType: UserCardDetailsModel.self)
     }
-#if SMOKE || REGRESSION
+#if SMOKE || REGRESSION || TEST
    func testLoginPageUIElemetsExists(){
       TestLogger.shared.log("Test started: \(self.name)")
       ///Display the Menu Items
@@ -71,7 +71,7 @@ final class LoginScenarioTests: BaseTest {
    }
 #endif
    
-#if SMOKE || REGRESSION
+#if SMOKE || REGRESSION || TEST
    func testLoginPageUIElementsInteraction(){
       TestLogger.shared.log("Test started: \(self.name)")
       ///Display the Menu Items
@@ -85,7 +85,7 @@ final class LoginScenarioTests: BaseTest {
    }
 #endif
    
-   #if SMOKE || REGRESSION
+   #if SMOKE || REGRESSION || TEST
     func testEmptyLogin(){
             TestLogger.shared.log("Test started: \(self.name)")
             homeScreen.tapOnMoreTab()
@@ -97,7 +97,7 @@ final class LoginScenarioTests: BaseTest {
     }
 #endif
    
-#if SANITY
+#if SANITY || TEST
     func testLoginAndItemPurchase(){
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login

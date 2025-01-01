@@ -48,7 +48,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
         userAddressTestData = Helpers.loadTestData(from: AppConstants.ADDRESS,ofType: UserAddressModel.self)
         userCardDetailsTestData = Helpers.loadTestData(from: AppConstants.CARD_DETAILS,ofType: UserCardDetailsModel.self)
     }
-  #if SMOKE || REGRESSION
+  #if SMOKE || REGRESSION || TEST
     func testMultipleItemsCheckOut() {
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
@@ -85,7 +85,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
             TestLogger.shared.log("Test finished: \(self.name)")
     }
 #endif
-  #if SANITY || REGRESSION
+  #if SANITY || REGRESSION || TEST
     func testVerifyItemRemovalFromCart() {
         //Helpers.runIfTagged(with: "smoke,regression") {
             TestLogger.shared.log("Test started: \(self.name)")
@@ -113,7 +113,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
     }
 #endif
     ///This method defines verify the cart with no Items
-  #if SMOKE || REGRESSION
+  #if SMOKE || REGRESSION || TEST
     func testVerifyCheckOutWithEmptyCart() {
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
@@ -133,7 +133,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
 #endif
 
     /// This method defines Add and Remove items from cart
-  #if REGRESSION || SANITY
+  #if REGRESSION || SANITY || TEST
     func testAddRemoveItemsFromCart() {
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login

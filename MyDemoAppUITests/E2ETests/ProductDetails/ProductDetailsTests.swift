@@ -21,7 +21,7 @@ final class ProductDetailsTests: BaseTest{
         homeScreen = HomeScreen(app: app)
         productDetailScreen = ProductDetailScreen(app: app)
     }
-   #if SANITY || REGRESSION
+   #if TEST
     func testProductDetails(){
             let productNameInHome: String  = homeScreen.getProductName()
             let productCostInHome: String = homeScreen.getProductPrice()

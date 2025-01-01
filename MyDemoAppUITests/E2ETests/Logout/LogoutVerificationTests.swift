@@ -32,7 +32,7 @@ final class LogoutVerificationTests: BaseTest {
         userCredentialsTestData = Helpers.loadTestData(from: AppConstants.LOGIN,ofType: UserCredentialsTestDataModel.self)
     }
     /// This method defines Logout functinality
-    #if REGRESSION
+    #if REGRESSION || TEST
     func testLogoutFunctionality() {
         ///Login
             homeScreen.tapOnMoreTab()
