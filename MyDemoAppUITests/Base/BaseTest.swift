@@ -27,17 +27,3 @@ class BaseTest: XCTestCase {
     }
 }
 
-extension XCTestCase {
-    
-    var isSanity: Bool {
-        return self.name.contains("Sanity")
-    }
-    
-    var isRegression: Bool {
-        return self.name.contains("Regression")
-    }
-    
-    var isSmoke: Bool {
-        return self.name.contains("Smoke")
-    }
-}
