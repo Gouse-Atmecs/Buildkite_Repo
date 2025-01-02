@@ -38,6 +38,6 @@ struct AppConstants{
     static let TWITTER = "twitter"
     static let FACEBOOK = "facebook"
     static let LINKEDIN = "linkedin"
-    
+   static let SCREENSHOT_PATH = "/Users/mohammad.jani/Desktop/buildkite/AppScreenshots/"
     
 }

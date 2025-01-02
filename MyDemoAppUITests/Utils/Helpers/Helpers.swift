@@ -10,144 +10,180 @@ import Foundation
 import ObjectiveC
 
 class Helpers {
-    
-    let app: XCUIApplication
-    init(app: XCUIApplication) {
-        self.app = app
+   
+   let app: XCUIApplication
+   init(app: XCUIApplication) {
+      self.app = app
+   }
+   static func isSanity(testName: String) -> Bool {
+      return testName.contains("Sanity")
+   }
+   
+   static func isRegression(testName: String) -> Bool {
+      return testName.contains("Regression")
+   }
+   
+   static func isSmoke(testName: String) -> Bool {
+      return testName.contains("Smoke")
+   }
+   
+   static func isUIElementVisible(_ element: XCUIElement,wait:Double = 2) -> Bool{
+      return element.waitForExistence(timeout: wait)
+   }
+   static func tapOnElement(_ element: XCUIElement){
+      if element.exists && element.isHittable{
+         element.tap()
+      } else{
+         XCTFail("\(element) \(ErrorMessages.DOES_NOT_EXISTS)")
+         TestLogger.shared.log(LogMessages.DOES_NOT_EXISTS)
+      }
+   }
+   static func enterText(_ element: XCUIElement, text: String) {
+      if element.exists && element.isHittable {
+         element.tap()  // Tap to focus if necessary
+         element.typeText(text)
+      } else {
+         XCTFail(ErrorMessages.ELEMENT_IS_NOT_TRACEABLE)
+         TestLogger.shared.log(LogMessages.ELEMENT_IS_NOT_TRACEABLE)
+      }
+   }
+   static func getText(_ element: XCUIElement) -> String?{
+      if element.exists && element.isHittable{
+         return element.label
+      } else{
+         XCTFail("\(element) \(ErrorMessages.DOES_NOT_EXISTS)")
+         TestLogger.shared.log(LogMessages.DOES_NOT_EXISTS)
+         return nil
+      }
+   }
+   static func clearTextField(_ element: XCUIElement) {
+      element.tap()
+      let currentText = element.value as? String ?? ""
+      for _ in 0..<currentText.count {
+         element.typeText("\u{8}") // This is the backspace key
+      }
+   }
+   static func loadTestData<T: Decodable>(from fileName: String, ofType type: T.Type = T.self) -> T? {
+      guard let url = Bundle(for: BaseTest.self).url(forResource: fileName, withExtension: "json") else {
+         print(ErrorMessages.TEST_DATA_NOT_FOUND)
+         TestLogger.shared.log(ErrorMessages.TEST_DATA_NOT_FOUND)
+         return nil
+      }
+      do {
+         // Load the data from the file
+         let data = try Data(contentsOf: url)
+         let decoder = JSONDecoder()
+         let decodedData = try decoder.decode(T.self, from: data)
+         return decodedData
+      } catch {
+         print("\(ErrorMessages.FAILED_TO_LOAD): \(error)")
+         TestLogger.shared.log("\(ErrorMessages.FAILED_TO_LOAD) : \(error)")
+         return nil
+      }
+   }
+   
+   var collectionView: XCUIElement {
+      return app.collectionViews.element(boundBy: 0) // or a more specific index
+   }
+   /// This function allows to swipe multiple times
+   func swipeUpMultipleTimes(count: Int, velocity: XCUIGestureVelocity = .fast) {
+      let collectionView = self.collectionView
+      // Ensure the collection view exists and is hittable
+      guard collectionView.exists && collectionView.isHittable else {
+         XCTFail(ErrorMessages.COLLECTION_VIEW_NOT_FOUND)
+         return
+      }
+      for _ in 0..<count {
+         collectionView.swipeUp(velocity: velocity)
+      }
+   }
+   
+   static func tapOnFirstMatch(in app: XCUIApplication, matching elementType: XCUIElement.ElementType, label: String? = nil) {
+      // Find the matching elements by element type
+      let matchingElements: [XCUIElement] = app.descendants(matching: elementType).allElementsBoundByIndex
+      
+      // If a label is provided, filter by label
+      let filteredElements: [XCUIElement] = label != nil ? matchingElements.filter { $0.label == label } : matchingElements
+      
+      // Check if a match was found and tap on the first hittable element
+      if let firstMatch: XCUIElement = filteredElements.first, firstMatch.exists && firstMatch.isHittable {
+         firstMatch.tap()
+      } else {
+         XCTFail("Failed to tap on the \(elementType) element with label '\(label ?? "")': No hittable element found.")
+      }
+   }
+   
+   // Helper function to get random login credentials
+   /// From this method we will take random login credentials
+   static func getRandomLogin() -> CredentialsDataModel? {
+      // Load the login data from the JSON file
+      guard let loginData: UserCredentialsDataModel = Helpers.loadTestData(from: AppConstants.MULTIPLE_LOGIN_DETAILS) else {
+         XCTFail(ErrorMessages.FAIL_LOADING_LOGIN_DATA)
+         return nil
+      }
+      // Ensure the array is not empty
+      guard !loginData.isEmpty else {
+         XCTFail(ErrorMessages.LOADED_LOGIN_DATA_EMPTY)
+         return nil
+      }
+      // Randomly pick a user from the array
+      let randomIndex: Int = Int.random(in: 0..<loginData.count)
+      return loginData[randomIndex]
+   }
+   
+   // Helper function to log in with random user
+   static func loginWithRandomUser(on loginScreen: LoginScreen) {
+      guard let user = getRandomLogin() else {
+         XCTFail(ErrorMessages.FAIL_GETTING_RANDOM_CREDENTIALS)
+         return
+      }
+      // Ensure credentials are valid
+      let userName = user.userName ?? ""
+      let password = user.password ?? ""
+      // Perform the login action
+      loginScreen.login(userName: userName, password: password)
+   }
+   //    // Helper function to check tags and run tests accordingly
+   //    static func runIfTagged(with tags: String, _ test: () -> Void) {
+   //        // Fetch the 'TEST_TAGS' environment variable and split it by commas
+   //        if let tagsFromEnv = ProcessInfo.processInfo.environment["TEST_TAGS"]?.components(separatedBy: ",") {
+   //            // Split the input 'tags' by commas
+   //            let requestedTags = tags.components(separatedBy: ",")
+   //            // Check if any of the requested tags match the tags in the environment variable
+   //            for tag in requestedTags {
+   //                if tagsFromEnv.contains(tag.trimmingCharacters(in: .whitespaces)) {
+   //                    test() // Run the test if any matching tag is found
+   //                    return
+   //                }
+   //            }
+   //            print("Skipping test with tags: \(tags)") // Debugging message
+   //        }
+   //    }
+}
+
+import XCTest
+
+class ScreenshotHelper {
+    // Capture and save the screenshot of the simulator's screen to a custom path
+    static func captureAndSaveSimulatorScreenshot(test: XCTestCase, name: String, savePath: String) {
+        let screenshot = XCUIScreen.main.screenshot()  // Capture the simulator screen
+        // Save the screenshot to the file system at the given path
+        saveScreenshotToFile(screenshot: screenshot, path: savePath)
+        // Create an attachment for the test report
+       let attachment = XCTAttachment(uniformTypeIdentifier: "public.png", name: name, payload: screenshot.pngRepresentation, userInfo: nil)
+        // Add the screenshot as an attachment to the test
+        test.add(attachment)
     }
-    
-    static func isUIElementVisible(_ element: XCUIElement,wait:Double = 2) -> Bool{
-        return element.waitForExistence(timeout: wait)
-    }
-    static func tapOnElement(_ element: XCUIElement){
-        if element.exists && element.isHittable{
-            element.tap()
-        } else{
-            XCTFail("\(element) \(ErrorMessages.DOES_NOT_EXISTS)")
-            TestLogger.shared.log(LogMessages.DOES_NOT_EXISTS)
-        }
-    }
-    static func enterText(_ element: XCUIElement, text: String) {
-        if element.exists && element.isHittable {
-            element.tap()  // Tap to focus if necessary
-            element.typeText(text)
-        } else {
-            XCTFail(ErrorMessages.ELEMENT_IS_NOT_TRACEABLE)
-            TestLogger.shared.log(LogMessages.ELEMENT_IS_NOT_TRACEABLE)
-        }
-    }
-    static func getText(_ element: XCUIElement) -> String?{
-        if element.exists && element.isHittable{
-            return element.label
-        } else{
-            XCTFail("\(element) \(ErrorMessages.DOES_NOT_EXISTS)")
-            TestLogger.shared.log(LogMessages.DOES_NOT_EXISTS)
-            return nil
-        }
-    }
-    static func clearTextField(_ element: XCUIElement) {
-        element.tap()
-        let currentText = element.value as? String ?? ""
-        for _ in 0..<currentText.count {
-            element.typeText("\u{8}") // This is the backspace key
-        }
-    }
-    static func loadTestData<T: Decodable>(from fileName: String, ofType type: T.Type = T.self) -> T? {
-        guard let url = Bundle(for: BaseTest.self).url(forResource: fileName, withExtension: "json") else {
-            print(ErrorMessages.TEST_DATA_NOT_FOUND)
-            TestLogger.shared.log(ErrorMessages.TEST_DATA_NOT_FOUND)
-            return nil
-        }
+    // Helper method to save screenshot to the file system
+    static func saveScreenshotToFile(screenshot: XCUIScreenshot, path: String) {
         do {
-            // Load the data from the file
-            let data = try Data(contentsOf: url)
-            let decoder = JSONDecoder()
-            let decodedData = try decoder.decode(T.self, from: data)
-            return decodedData
+            // Write the screenshot as PNG to the specified path
+           try screenshot.pngRepresentation.write(to: URL(fileURLWithPath: path))
+            print("Screenshot saved to: \(path)")
         } catch {
-            print("\(ErrorMessages.FAILED_TO_LOAD): \(error)")
-            TestLogger.shared.log("\(ErrorMessages.FAILED_TO_LOAD) : \(error)")
-            return nil
+            print("Failed to save screenshot to file: \(error)")
         }
     }
-    
-    var collectionView: XCUIElement {
-        return app.collectionViews.element(boundBy: 0) // or a more specific index
-    }
-    /// This function allows to swipe multiple times
-    func swipeUpMultipleTimes(count: Int, velocity: XCUIGestureVelocity = .fast) {
-        let collectionView = self.collectionView
-            // Ensure the collection view exists and is hittable
-            guard collectionView.exists && collectionView.isHittable else {
-                XCTFail(ErrorMessages.COLLECTION_VIEW_NOT_FOUND)
-                return
-            }
-            for _ in 0..<count {
-                collectionView.swipeUp(velocity: velocity)
-            }
-        }
-    
-    static func tapOnFirstMatch(in app: XCUIApplication, matching elementType: XCUIElement.ElementType, label: String? = nil) {
-        // Find the matching elements by element type
-        let matchingElements: [XCUIElement] = app.descendants(matching: elementType).allElementsBoundByIndex
-        
-        // If a label is provided, filter by label
-        let filteredElements: [XCUIElement] = label != nil ? matchingElements.filter { $0.label == label } : matchingElements
-        
-        // Check if a match was found and tap on the first hittable element
-        if let firstMatch: XCUIElement = filteredElements.first, firstMatch.exists && firstMatch.isHittable {
-            firstMatch.tap()
-        } else {
-            XCTFail("Failed to tap on the \(elementType) element with label '\(label ?? "")': No hittable element found.")
-        }
-    }
-    
-    // Helper function to get random login credentials
-    /// From this method we will take random login credentials
-    static func getRandomLogin() -> CredentialsDataModel? {
-        // Load the login data from the JSON file
-        guard let loginData: UserCredentialsDataModel = Helpers.loadTestData(from: AppConstants.MULTIPLE_LOGIN_DETAILS) else {
-            XCTFail(ErrorMessages.FAIL_LOADING_LOGIN_DATA)
-            return nil
-        }
-        // Ensure the array is not empty
-        guard !loginData.isEmpty else {
-            XCTFail(ErrorMessages.LOADED_LOGIN_DATA_EMPTY)
-            return nil
-        }
-        // Randomly pick a user from the array
-        let randomIndex: Int = Int.random(in: 0..<loginData.count)
-        return loginData[randomIndex]
-    }
-    
-    // Helper function to log in with random user
-    static func loginWithRandomUser(on loginScreen: LoginScreen) {
-        guard let user = getRandomLogin() else {
-            XCTFail(ErrorMessages.FAIL_GETTING_RANDOM_CREDENTIALS)
-            return
-        }
-        // Ensure credentials are valid
-        let userName = user.userName ?? ""
-        let password = user.password ?? ""
-        // Perform the login action
-        loginScreen.login(userName: userName, password: password)
-    }
-//    // Helper function to check tags and run tests accordingly
-//    static func runIfTagged(with tags: String, _ test: () -> Void) {
-//        // Fetch the 'TEST_TAGS' environment variable and split it by commas
-//        if let tagsFromEnv = ProcessInfo.processInfo.environment["TEST_TAGS"]?.components(separatedBy: ",") {
-//            // Split the input 'tags' by commas
-//            let requestedTags = tags.components(separatedBy: ",")
-//            // Check if any of the requested tags match the tags in the environment variable
-//            for tag in requestedTags {
-//                if tagsFromEnv.contains(tag.trimmingCharacters(in: .whitespaces)) {
-//                    test() // Run the test if any matching tag is found
-//                    return
-//                }
-//            }
-//            print("Skipping test with tags: \(tags)") // Debugging message
-//        }
-//    }
 }
 
 @propertyWrapper

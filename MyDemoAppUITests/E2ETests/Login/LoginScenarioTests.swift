@@ -57,7 +57,7 @@ final class LoginScenarioTests: BaseTest {
         userAddressTestData = Helpers.loadTestData(from: AppConstants.ADDRESS,ofType: UserAddressModel.self)
         userCardDetailsTestData = Helpers.loadTestData(from: AppConstants.CARD_DETAILS,ofType: UserCardDetailsModel.self)
     }
-#if SMOKE || REGRESSION
+
    func testLoginPageUIElemetsExists(){
       TestLogger.shared.log("Test started: \(self.name)")
       ///Display the Menu Items
@@ -69,9 +69,9 @@ final class LoginScenarioTests: BaseTest {
       loginScreen.checkForLoginBtn()
       TestLogger.shared.log("Test finished: \(self.name)")
    }
-#endif
+
    
-#if SMOKE || REGRESSION
+
    func testLoginPageUIElementsInteraction(){
       TestLogger.shared.log("Test started: \(self.name)")
       ///Display the Menu Items
@@ -83,22 +83,22 @@ final class LoginScenarioTests: BaseTest {
       loginScreen.isLoginBtnClickable()
       TestLogger.shared.log("Test finished: \(self.name)")
    }
-#endif
+
    
-   #if SMOKE || REGRESSION
+
     func testEmptyLogin(){
             TestLogger.shared.log("Test started: \(self.name)")
             homeScreen.tapOnMoreTab()
             moreScreen.tapOnLogin()
             loginScreen.tapOnLogin()
             loginScreen.assertEmptyUserName()
+       ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)emptyLogin.png")
+
             loginScreen.tapOnAlertOkBtn()
             TestLogger.shared.log("Test finished: \(self.name)")
     }
-#endif
-   
-#if SANITY
-    func testLoginAndItemPurchase(){
+
+       func testLoginAndItemPurchase(){
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
             homeScreen.tapOnMoreTab()
@@ -130,13 +130,14 @@ final class LoginScenarioTests: BaseTest {
             shippingAddressScreeen.enterUserAddressToPayment(userAddressTestData)
             checkOutScreen.enterCardDetails(userCardDetailsTestData)
             placeOrderScreen.tapOnPlaceOrder()
+          ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)OrderSuccessfull.png")
             /// verifying for checkout successful message
             VerificationManager.validateTrue(for: checkoutCompleteScreen.checkForContinueShoppingButton())
             checkoutCompleteScreen.tapOnCotinueShoppingButton()
             
             TestLogger.shared.log("Test finished: \(self.name)")
     }
-#endif
+
     func testLoginFailedWithInvalidCredential(){
         TestLogger.shared.log("Test started: \(self.name)")
         homeScreen.tapOnMoreTab()
