@@ -35,6 +35,7 @@ final class LogoutVerificationTests: BaseTest {
     
     func testLogoutFunctionality() {
         ///Login
+       logTestCategory()
             homeScreen.tapOnMoreTab()
             moreScreen.tapOnLogin()
             loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")

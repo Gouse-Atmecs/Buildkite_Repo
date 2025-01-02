@@ -50,6 +50,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
     }
   //@TestCategory(wrappedValue: "Sanity")
     func testMultipleItemsCheckOut() {
+      logTestCategory()
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
             homeScreen.tapOnMoreTab()
@@ -87,6 +88,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
 
     func testVerifyItemRemovalFromCart() {
         //Helpers.runIfTagged(with: "smoke,regression") {
+      logTestCategory()
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
             homeScreen.tapOnMoreTab()
@@ -114,6 +116,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
     ///This method defines verify the cart with no Items
  
     func testVerifyCheckOutWithEmptyCart() {
+      logTestCategory()
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
             homeScreen.tapOnMoreTab()
@@ -134,6 +137,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
     /// This method defines Add and Remove items from cart
 
     func testAddRemoveItemsFromCart() {
+      logTestCategory()
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
             homeScreen.tapOnMoreTab()

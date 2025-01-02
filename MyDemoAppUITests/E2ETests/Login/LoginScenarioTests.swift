@@ -59,6 +59,7 @@ final class LoginScenarioTests: BaseTest {
     }
 
    func testLoginPageUIElemetsExists(){
+      logTestCategory()
       TestLogger.shared.log("Test started: \(self.name)")
       ///Display the Menu Items
       homeScreen.tapOnMoreTab()
@@ -73,6 +74,7 @@ final class LoginScenarioTests: BaseTest {
    
 
    func testLoginPageUIElementsInteraction(){
+      logTestCategory()
       TestLogger.shared.log("Test started: \(self.name)")
       ///Display the Menu Items
       homeScreen.tapOnMoreTab()
@@ -87,6 +89,7 @@ final class LoginScenarioTests: BaseTest {
    
 
     func testEmptyLogin(){
+       logTestCategory()
             TestLogger.shared.log("Test started: \(self.name)")
             homeScreen.tapOnMoreTab()
             moreScreen.tapOnLogin()
@@ -99,6 +102,7 @@ final class LoginScenarioTests: BaseTest {
     }
 
        func testLoginAndItemPurchase(){
+          logTestCategory()
             TestLogger.shared.log("Test started: \(self.name)")
             /// Login
             homeScreen.tapOnMoreTab()

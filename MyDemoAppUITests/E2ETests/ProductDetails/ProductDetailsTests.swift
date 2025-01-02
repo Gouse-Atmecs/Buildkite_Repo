@@ -23,6 +23,7 @@ final class ProductDetailsTests: BaseTest{
     }
 
     func testProductDetails(){
+       logTestCategory()
             let productNameInHome: String  = homeScreen.getProductName()
             let productCostInHome: String = homeScreen.getProductPrice()
             homeScreen.tapOnProduct(index: 0)
