@@ -26,6 +26,7 @@ final class ProductDetailsTests: BaseTest{
             let productNameInHome: String  = homeScreen.getProductName()
             let productCostInHome: String = homeScreen.getProductPrice()
             homeScreen.tapOnProduct(index: 0)
+            ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)ProductDetails.png")
             let productNameInDetails: String  = productDetailScreen.getProductName()
             let productCostInDetails: String = productDetailScreen.getProductPrice()
             VerificationManager.validateTrue(for: productNameInHome == productNameInDetails)

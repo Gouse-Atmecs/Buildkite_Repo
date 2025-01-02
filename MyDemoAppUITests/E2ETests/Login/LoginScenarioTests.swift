@@ -92,8 +92,7 @@ final class LoginScenarioTests: BaseTest {
             moreScreen.tapOnLogin()
             loginScreen.tapOnLogin()
             loginScreen.assertEmptyUserName()
-       ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)emptyLogin.png")
-
+            ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)emptyLogin.png")
             loginScreen.tapOnAlertOkBtn()
             TestLogger.shared.log("Test finished: \(self.name)")
     }
@@ -130,7 +129,7 @@ final class LoginScenarioTests: BaseTest {
             shippingAddressScreeen.enterUserAddressToPayment(userAddressTestData)
             checkOutScreen.enterCardDetails(userCardDetailsTestData)
             placeOrderScreen.tapOnPlaceOrder()
-          ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)OrderSuccessfull.png")
+            ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)OrderSuccessfull.png")
             /// verifying for checkout successful message
             VerificationManager.validateTrue(for: checkoutCompleteScreen.checkForContinueShoppingButton())
             checkoutCompleteScreen.tapOnCotinueShoppingButton()

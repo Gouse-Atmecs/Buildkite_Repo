@@ -79,6 +79,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
             ///Card details screen
             checkOutScreen.enterCardDetails(userCardDetailsTestData)
             placeOrderScreen.tapOnPlaceOrder()
+            ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)OrderSuccessfull.png")
             /// verifying for checkout successful message
             VerificationManager.validateTrue(for: checkoutCompleteScreen.checkForContinueShoppingButton())
             checkoutCompleteScreen.tapOnCotinueShoppingButton()
@@ -106,6 +107,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
             VerificationManager.validateTrue(for: procutName == productNameInCart)
             VerificationManager.validateTrue(for: productCost == productCostInCart)
             cartScreen.tapOnRemoveFromCartButton()
+            ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)NoItemsInCart.png")
             VerificationManager.validateTrue(for: cartScreen.checkForNoItemsDescText())
             TestLogger.shared.log("Test finished: \(self.name)")
        // }
@@ -126,6 +128,7 @@ final class CartAndCheckoutFlowTests: BaseTest {
             ///Comes to dashboard screen
             homeScreen.tapOnCatalogTab()
             homeScreen.tapOnCartTab()
+            ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)NoItemsInCart.png")
             VerificationManager.validateTrue(for: cartScreen.checkForNoItemsDescText())
             TestLogger.shared.log("Test finished: \(self.name)")
     }
