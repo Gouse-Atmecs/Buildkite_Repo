@@ -13,25 +13,25 @@ final class GroupedTestCases: BaseTest {
    let loginScenarioTests = LoginScenarioTests()
    let logoutVerificationTests = LogoutVerificationTests()
    
-    func testSanityTestCases() {
-       cartAndCheckoutFlowTests.setUp()
-       loginScenarioTests.setUp()
-       cartAndCheckoutFlowTests.testSmokeMultipleItemsCheckOut()
-       loginScenarioTests.testSanityEmptyLogin()
-   }
-   
-   func testSmokeTestCases() {
-      cartAndCheckoutFlowTests.setUp()
-      loginScenarioTests.setUp()
-      cartAndCheckoutFlowTests.testSanityVerifyItemRemovalFromCart()
-      loginScenarioTests.testRegressionLoginAndItemPurchase()
-  }
-   
-   func testRegressionTestCases() {
-      cartAndCheckoutFlowTests.setUp()
-      logoutVerificationTests.setUp()
-      cartAndCheckoutFlowTests.testSmokeCheckOutWithEmptyCart()
-      cartAndCheckoutFlowTests.testRegressionAddRemoveItemsFromCart()
-      logoutVerificationTests.testRegressionLogoutFunctionality()
-  }
+//    func testSanityTestCases() {
+//       cartAndCheckoutFlowTests.setUp()
+//       loginScenarioTests.setUp()
+//       cartAndCheckoutFlowTests.testSmokeMultipleItemsCheckOut()
+//       loginScenarioTests.testSanityEmptyLogin()
+//   }
+//   
+//   func testSmokeTestCases() {
+//      cartAndCheckoutFlowTests.setUp()
+//      loginScenarioTests.setUp()
+//      cartAndCheckoutFlowTests.testSanityVerifyItemRemovalFromCart()
+//      loginScenarioTests.testRegressionLoginAndItemPurchase()
+//  }
+//   
+//   func testRegressionTestCases() {
+//      cartAndCheckoutFlowTests.setUp()
+//      logoutVerificationTests.setUp()
+//      cartAndCheckoutFlowTests.testSmokeCheckOutWithEmptyCart()
+//      cartAndCheckoutFlowTests.testRegressionAddRemoveItemsFromCart()
+//      logoutVerificationTests.testRegressionLogoutFunctionality()
+//  }
 }

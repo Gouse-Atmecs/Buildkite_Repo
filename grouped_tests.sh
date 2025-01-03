@@ -16,19 +16,19 @@ fi
 
 # Define test cases for each category using indexed arrays
 SANITY_TESTS=(
-    "CartAndCheckoutFlowTests/testVerifyItemRemovalFromCart"
-    "LoginScenarioTests/testEmptyLogin"
+    "CartAndCheckoutFlowTests/testSanityVerifyItemRemovalFromCart"
+    "LoginScenarioTests/testSanityEmptyLogin"
 )
 
 SMOKE_TESTS=(
-    "ProductDetailsTests/testProductDetails"
-    "LoginScenarioTests/testLoginAndItemPurchase"
+    "ProductDetailsTests/testSmokeProductDetails"
+    "LoginScenarioTests/testRegressionLoginAndItemPurchase"
 )
 
 REGRESSION_TESTS=(
-    "LoginScenarioTests/testLoginAndItemPurchase"
-    "CartAndCheckoutFlowTests/testVerifyCheckOutWithEmptyCart"
-    "LogoutVerificationTests/testLogoutFunctionality"
+    "LoginScenarioTests/testRegressionLoginAndItemPurchase"
+    "CartAndCheckoutFlowTests/testSmokeCheckOutWithEmptyCart"
+    "LogoutVerificationTests/testRegressionLogoutFunctionality"
 )
 
 # Function to run tests for a specific category

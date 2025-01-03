@@ -9,10 +9,10 @@ TARGET="MyDemoAppUITests"
 
 # List of specific test cases you want to run
 TEST_CASES=(
-    "CartAndCheckoutFlowTests/testVerifyCheckOutWithEmptyCart"
-    "ProductDetailsTests/testProductDetails"
-    "LoginScenarioTests/testEmptyLogin"
-    "LogoutVerificationTests/testLogoutFunctionality"
+    "CartAndCheckoutFlowTests/testSmokeCheckOutWithEmptyCart"
+    "ProductDetailsTests/testSmokeProductDetails"
+    "LoginScenarioTests/testSanityEmptyLogin"
+    "LogoutVerificationTests/testRegressionLogoutFunctionality"
 )
 
 # Loop through each test case and run it
