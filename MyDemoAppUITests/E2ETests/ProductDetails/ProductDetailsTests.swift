@@ -22,16 +22,18 @@ final class ProductDetailsTests: BaseTest{
         productDetailScreen = ProductDetailScreen(app: app)
     }
 
-    func testProductDetails(){
-       logTestCategory()
-            let productNameInHome: String  = homeScreen.getProductName()
-            let productCostInHome: String = homeScreen.getProductPrice()
-            homeScreen.tapOnProduct(index: 0)
-            let productNameInDetails: String  = productDetailScreen.getProductName()
-            let productCostInDetails: String = productDetailScreen.getProductPrice()
-            VerificationManager.validateTrue(for: productNameInHome == productNameInDetails)
-            VerificationManager.validateTrue(for: productCostInHome == productCostInDetails)
-            productDetailScreen.tapOnBackButton()
+    func testSmokeProductDetails(){
+       //logTestCategory()
+       //Helpers.runIfTagged(with: ["Smoke"]) {
+          let productNameInHome: String  = homeScreen.getProductName()
+          let productCostInHome: String = homeScreen.getProductPrice()
+          homeScreen.tapOnProduct(index: 0)
+          let productNameInDetails: String  = productDetailScreen.getProductName()
+          let productCostInDetails: String = productDetailScreen.getProductPrice()
+          VerificationManager.validateTrue(for: productNameInHome == productNameInDetails)
+          VerificationManager.validateTrue(for: productCostInHome == productCostInDetails)
+          productDetailScreen.tapOnBackButton()
+       //}
     }
 
 }

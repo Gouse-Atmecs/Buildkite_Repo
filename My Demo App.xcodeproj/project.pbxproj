@@ -36,6 +36,8 @@
 		25BE8B722CF8842300161180 /* CardDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = 25BE8B712CF8842300161180 /* CardDetails.json */; };
 		25BE8B742CF8842D00161180 /* Address.json in Resources */ = {isa = PBXBuildFile; fileRef = 25BE8B732CF8842D00161180 /* Address.json */; };
 		291BC1DC2CF88C6300B0F974 /* LoginScenarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291BC1DB2CF88C6300B0F974 /* LoginScenarioTests.swift */; };
+		296642112D26BA3400822B4D /* CategoryTestRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296642102D26BA3400822B4D /* CategoryTestRunner.swift */; };
+		296642152D27B13100822B4D /* GroupedTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296642142D27B13100822B4D /* GroupedTestCases.swift */; };
 		29903F1C2D09594600A3D5C0 /* AboutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29903F1B2D09594600A3D5C0 /* AboutScreen.swift */; };
 		29C2E50D2D06FD4300B3563A /* MultipleLoginDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = 29C2E50C2D06FD3100B3563A /* MultipleLoginDetails.json */; };
 		29C2E50F2D0771A800B3563A /* UserCredentialsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C2E50E2D0771A800B3563A /* UserCredentialsDataModel.swift */; };
@@ -131,6 +133,8 @@
 		25BE8B712CF8842300161180 /* CardDetails.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CardDetails.json; sourceTree = "<group>"; };
 		25BE8B732CF8842D00161180 /* Address.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Address.json; sourceTree = "<group>"; };
 		291BC1DB2CF88C6300B0F974 /* LoginScenarioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScenarioTests.swift; sourceTree = "<group>"; };
+		296642102D26BA3400822B4D /* CategoryTestRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTestRunner.swift; sourceTree = "<group>"; };
+		296642142D27B13100822B4D /* GroupedTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedTestCases.swift; sourceTree = "<group>"; };
 		29903F1B2D09594600A3D5C0 /* AboutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreen.swift; sourceTree = "<group>"; };
 		29C2E50C2D06FD3100B3563A /* MultipleLoginDetails.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MultipleLoginDetails.json; sourceTree = "<group>"; };
 		29C2E50E2D0771A800B3563A /* UserCredentialsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCredentialsDataModel.swift; sourceTree = "<group>"; };
@@ -305,6 +309,8 @@
 		25BE8B4C2CF86D9900161180 /* E2ETests */ = {
 			isa = PBXGroup;
 			children = (
+				296642132D27AD5600822B4D /* TestSuites */,
+				296642122D26BCE100822B4D /* TestRunner */,
 				29CC25422D0072180082CCDA /* SocialMediaRedirection */,
 				29CC253F2D0066E30082CCDA /* CartAndCheckout */,
 				253553C22CFD765900509C51 /* ProductDetails */,
@@ -431,6 +437,22 @@
 				25BE8B292CF86D8100161180 /* ShippingAdressScreen.swift */,
 			);
 			path = ShippingAddress;
+			sourceTree = "<group>";
+		};
+		296642122D26BCE100822B4D /* TestRunner */ = {
+			isa = PBXGroup;
+			children = (
+				296642102D26BA3400822B4D /* CategoryTestRunner.swift */,
+			);
+			path = TestRunner;
+			sourceTree = "<group>";
+		};
+		296642132D27AD5600822B4D /* TestSuites */ = {
+			isa = PBXGroup;
+			children = (
+				296642142D27B13100822B4D /* GroupedTestCases.swift */,
+			);
+			path = TestSuites;
 			sourceTree = "<group>";
 		};
 		29BAC9F12D080DE200581608 /* About */ = {
@@ -856,10 +878,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				29CC25412D0067070082CCDA /* CartAndCheckoutFlowTests.swift in Sources */,
+				296642152D27B13100822B4D /* GroupedTestCases.swift in Sources */,
 				25BE8B6F2CF8740000161180 /* UserCardDetailsModel.swift in Sources */,
 				25BE8B102CF86D1F00161180 /* BaseScreen.swift in Sources */,
 				253554B72CFDC0DB00509C51 /* TestLogger.swift in Sources */,
 				25BE8B2C2CF86D8100161180 /* MoreScreen.swift in Sources */,
+				296642112D26BA3400822B4D /* CategoryTestRunner.swift in Sources */,
 				255B76C42CFF02C500DFCC58 /* SessionManager.swift in Sources */,
 				25BE8B672CF871B200161180 /* UserCredentialsTestDataModel.swift in Sources */,
 				29C2E50F2D0771A800B3563A /* UserCredentialsDataModel.swift in Sources */,

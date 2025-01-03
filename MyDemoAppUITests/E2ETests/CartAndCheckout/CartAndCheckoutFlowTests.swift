@@ -48,117 +48,121 @@ final class CartAndCheckoutFlowTests: BaseTest {
         userAddressTestData = Helpers.loadTestData(from: AppConstants.ADDRESS,ofType: UserAddressModel.self)
         userCardDetailsTestData = Helpers.loadTestData(from: AppConstants.CARD_DETAILS,ofType: UserCardDetailsModel.self)
     }
-  //@TestCategory(wrappedValue: "Sanity")
-    func testMultipleItemsCheckOut() {
-      logTestCategory()
-            TestLogger.shared.log("Test started: \(self.name)")
-            /// Login
-            homeScreen.tapOnMoreTab()
-            moreScreen.tapOnLogin()
-            //        loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
-            Helpers.loginWithRandomUser(on: loginScreen)
-            homeScreen.tapOnMoreTab()
-            ///Verify whether the user is logged in
-            VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
-            ///Comes to dashboard screen
-            homeScreen.tapOnCatalogTab()
-            /// Add Multiple products to the cart
-            let (procutName,productCost) = homeScreen.getItemDetails(at: firstItemIndex)
-            homeScreen.addToCart(index: firstItemIndex)
-            let productCostInCart: String = cartScreen.getProductPriceInString()
-            let productNameInCart: String = cartScreen.getProductNameString()
-            VerificationManager.validateTrue(for: procutName == productNameInCart)
-            VerificationManager.validateTrue(for: productCost == productCostInCart)
-            homeScreen.tapOnCatalogTab()
-            homeScreen.addToCart(index: secondItemIndex)
-            homeScreen.tapOnCatalogTab()
-            homeScreen.addToCart(index: thirdItemIndex)
-            /// Click on Proceed to check out button after adding multiple products
-            cartScreen.tapOnProceedToCheckOutButton()
-            ///Address screen
-            shippingAddressScreen.enterUserAddressToPayment(userAddressTestData)
-            ///Card details screen
-            checkOutScreen.enterCardDetails(userCardDetailsTestData)
-            placeOrderScreen.tapOnPlaceOrder()
-            /// verifying for checkout successful message
-            VerificationManager.validateTrue(for: checkoutCompleteScreen.checkForContinueShoppingButton())
-            checkoutCompleteScreen.tapOnCotinueShoppingButton()
-            TestLogger.shared.log("Test finished: \(self.name)")
+  
+    func testSmokeMultipleItemsCheckOut() {
+      //Helpers.runIfTagged(with: ["Smoke"]) {
+        //TestLogger.shared.log("Test started: \(self.name)")
+        /// Login
+        homeScreen.tapOnMoreTab()
+        moreScreen.tapOnLogin()
+        //        loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
+        Helpers.loginWithRandomUser(on: loginScreen)
+        homeScreen.tapOnMoreTab()
+        ///Verify whether the user is logged in
+        VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
+        ///Comes to dashboard screen
+        homeScreen.tapOnCatalogTab()
+        /// Add Multiple products to the cart
+        let (procutName,productCost) = homeScreen.getItemDetails(at: firstItemIndex)
+        homeScreen.addToCart(index: firstItemIndex)
+        let productCostInCart: String = cartScreen.getProductPriceInString()
+        let productNameInCart: String = cartScreen.getProductNameString()
+        VerificationManager.validateTrue(for: procutName == productNameInCart)
+        VerificationManager.validateTrue(for: productCost == productCostInCart)
+        homeScreen.tapOnCatalogTab()
+        homeScreen.addToCart(index: secondItemIndex)
+        homeScreen.tapOnCatalogTab()
+        homeScreen.addToCart(index: thirdItemIndex)
+        /// Click on Proceed to check out button after adding multiple products
+        cartScreen.tapOnProceedToCheckOutButton()
+        ///Address screen
+        shippingAddressScreen.enterUserAddressToPayment(userAddressTestData)
+        ///Card details screen
+        checkOutScreen.enterCardDetails(userCardDetailsTestData)
+        placeOrderScreen.tapOnPlaceOrder()
+        /// verifying for checkout successful message
+        VerificationManager.validateTrue(for: checkoutCompleteScreen.checkForContinueShoppingButton())
+        checkoutCompleteScreen.tapOnCotinueShoppingButton()
+        TestLogger.shared.log("Test finished: \(self.name)")
+      //}
     }
 
-    func testVerifyItemRemovalFromCart() {
-        //Helpers.runIfTagged(with: "smoke,regression") {
-      logTestCategory()
-            TestLogger.shared.log("Test started: \(self.name)")
-            /// Login
-            homeScreen.tapOnMoreTab()
-            moreScreen.tapOnLogin()
-            //loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
-            Helpers.loginWithRandomUser(on: loginScreen)
-            homeScreen.tapOnMoreTab()
-            ///Verify whether the user is logged in
-            VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
-            ///Comes to dashboard screen
-            homeScreen.tapOnCatalogTab()
-            /// Add product to cart
-            let (procutName,productCost) = homeScreen.getItemDetails(at: firstItemIndex)
-            homeScreen.addToCart(index: firstItemIndex)
-            let productCostInCart: String = cartScreen.getProductPriceInString()
-            let productNameInCart: String = cartScreen.getProductNameString()
-            VerificationManager.validateTrue(for: procutName == productNameInCart)
-            VerificationManager.validateTrue(for: productCost == productCostInCart)
-            cartScreen.tapOnRemoveFromCartButton()
-            VerificationManager.validateTrue(for: cartScreen.checkForNoItemsDescText())
-            TestLogger.shared.log("Test finished: \(self.name)")
-       // }
+    func testSanityVerifyItemRemovalFromCart() {
+      //Helpers.runIfTagged(with: ["Sanity"]) {
+        TestLogger.shared.log("Test started: \(self.name)")
+        /// Login
+        homeScreen.tapOnMoreTab()
+        moreScreen.tapOnLogin()
+        //loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
+        Helpers.loginWithRandomUser(on: loginScreen)
+        homeScreen.tapOnMoreTab()
+        ///Verify whether the user is logged in
+        VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
+        ///Comes to dashboard screen
+        homeScreen.tapOnCatalogTab()
+        /// Add product to cart
+        let (procutName,productCost) = homeScreen.getItemDetails(at: firstItemIndex)
+        homeScreen.addToCart(index: firstItemIndex)
+        let productCostInCart: String = cartScreen.getProductPriceInString()
+        let productNameInCart: String = cartScreen.getProductNameString()
+        VerificationManager.validateTrue(for: procutName == productNameInCart)
+        VerificationManager.validateTrue(for: productCost == productCostInCart)
+        cartScreen.tapOnRemoveFromCartButton()
+        VerificationManager.validateTrue(for: cartScreen.checkForNoItemsDescText())
+        TestLogger.shared.log("Test finished: \(self.name)")
+      //}
     }
 
     ///This method defines verify the cart with no Items
  
-    func testVerifyCheckOutWithEmptyCart() {
-      logTestCategory()
-            TestLogger.shared.log("Test started: \(self.name)")
-            /// Login
-            homeScreen.tapOnMoreTab()
-            moreScreen.tapOnLogin()
-            //loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
-            Helpers.loginWithRandomUser(on: loginScreen)
-            homeScreen.tapOnMoreTab()
-            ///Verify whether the user is logged in
-            VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
-            ///Comes to dashboard screen
-            homeScreen.tapOnCatalogTab()
-            homeScreen.tapOnCartTab()
-            VerificationManager.validateTrue(for: cartScreen.checkForNoItemsDescText())
-            TestLogger.shared.log("Test finished: \(self.name)")
+    func testSmokeCheckOutWithEmptyCart() {
+      //logTestCategory()
+     // Helpers.runIfTagged(with: ["Smoke"]) {
+        TestLogger.shared.log("Test started: \(self.name)")
+        /// Login
+        homeScreen.tapOnMoreTab()
+        moreScreen.tapOnLogin()
+        //loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
+        Helpers.loginWithRandomUser(on: loginScreen)
+        homeScreen.tapOnMoreTab()
+        ///Verify whether the user is logged in
+        VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
+        ///Comes to dashboard screen
+        homeScreen.tapOnCatalogTab()
+        homeScreen.tapOnCartTab()
+        VerificationManager.validateTrue(for: cartScreen.checkForNoItemsDescText())
+        TestLogger.shared.log("Test finished: \(self.name)")
+      //}
     }
 
 
     /// This method defines Add and Remove items from cart
 
-    func testAddRemoveItemsFromCart() {
-      logTestCategory()
-            TestLogger.shared.log("Test started: \(self.name)")
-            /// Login
-            homeScreen.tapOnMoreTab()
-            moreScreen.tapOnLogin()
-            loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
-            homeScreen.tapOnMoreTab()
-            VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
-            homeScreen.tapOnCatalogTab()
-            /// Add product to cart
-            let (procutName,productCost) = homeScreen.getItemDetails(at: firstItemIndex)
-            homeScreen.addToCart(index: firstItemIndex)
-            let productCostInCart:String = cartScreen.getProductPriceInString()
-            let productNameInCart:String = cartScreen.getProductNameString()
-            VerificationManager.validateTrue(for: procutName == productNameInCart)
-            VerificationManager.validateTrue(for: productCost == productCostInCart)
-            homeScreen.tapOnCatalogTab()
-            homeScreen.addToCart(index: secondItemIndex)
-            homeScreen.tapOnCatalogTab()
-            homeScreen.addToCart(index: thirdItemIndex)
-            cartScreen.tapOnRemoveFromCartButton()
-            TestLogger.shared.log("Test finished: \(self.name)")
+    func testRegressionAddRemoveItemsFromCart() {
+      //logTestCategory()
+      //Helpers.runIfTagged(with: ["Sanity", "Regression"]) {
+        TestLogger.shared.log("Test started: \(self.name)")
+        /// Login
+        homeScreen.tapOnMoreTab()
+        moreScreen.tapOnLogin()
+        loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
+        homeScreen.tapOnMoreTab()
+        VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
+        homeScreen.tapOnCatalogTab()
+        /// Add product to cart
+        let (procutName,productCost) = homeScreen.getItemDetails(at: firstItemIndex)
+        homeScreen.addToCart(index: firstItemIndex)
+        let productCostInCart:String = cartScreen.getProductPriceInString()
+        let productNameInCart:String = cartScreen.getProductNameString()
+        VerificationManager.validateTrue(for: procutName == productNameInCart)
+        VerificationManager.validateTrue(for: productCost == productCostInCart)
+        homeScreen.tapOnCatalogTab()
+        homeScreen.addToCart(index: secondItemIndex)
+        homeScreen.tapOnCatalogTab()
+        homeScreen.addToCart(index: thirdItemIndex)
+        cartScreen.tapOnRemoveFromCartButton()
+        TestLogger.shared.log("Test finished: \(self.name)")
+     // }
     }
 
 }

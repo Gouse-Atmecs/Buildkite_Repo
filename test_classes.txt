@@ -1,4 +1,6 @@
 MyDemoAppUITests/CartAndCheckoutFlowTests
+MyDemoAppUITests/CategoryTestRunner
+MyDemoAppUITests/GroupedTestCases
 MyDemoAppUITests/LoginScenarioTests
 MyDemoAppUITests/LogoutVerificationTests
 MyDemoAppUITests/ProductDetailsTests

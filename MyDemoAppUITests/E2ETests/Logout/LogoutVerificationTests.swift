@@ -33,17 +33,19 @@ final class LogoutVerificationTests: BaseTest {
     }
     /// This method defines Logout functinality
     
-    func testLogoutFunctionality() {
+    func testRegressionLogoutFunctionality() {
         ///Login
-       logTestCategory()
-            homeScreen.tapOnMoreTab()
-            moreScreen.tapOnLogin()
-            loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
-            homeScreen.tapOnMoreTab()
-            VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
-            moreScreen.tapOnLogOut()
-            /// Verifying whether user logged out succefully or not
-            VerificationManager.validateTrue(for: loginScreen.checkForLoginButton())
+       //logTestCategory()
+       //Helpers.runIfTagged(with: ["Regression"]) {
+          homeScreen.tapOnMoreTab()
+          moreScreen.tapOnLogin()
+          loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
+          homeScreen.tapOnMoreTab()
+          VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
+          moreScreen.tapOnLogOut()
+          /// Verifying whether user logged out succefully or not
+          VerificationManager.validateTrue(for: loginScreen.checkForLoginButton())
+       //}
     }
 
 }

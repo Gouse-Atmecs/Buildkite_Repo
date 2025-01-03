@@ -159,9 +159,16 @@ class Helpers {
    //            print("Skipping test with tags: \(tags)") // Debugging message
    //        }
    //    }
+   
+//   static func runIfTagged(with tags: [String], execute: () -> Void) {
+//           if tags.contains(TestRunner.currentCategory) {
+//               print("Running test for category: \(TestRunner.currentCategory)")
+//               execute()
+//           } else {
+//               print("Skipping test for category: \(TestRunner.currentCategory)")
+//           }
+//       }
 }
-
-import XCTest
 
 class ScreenshotHelper {
     // Capture and save the screenshot of the simulator's screen to a custom path
@@ -185,6 +192,43 @@ class ScreenshotHelper {
         }
     }
 }
+
+class TestCategoryRunner {
+    static func runTests(for keyword: String, in testSuite: XCTestSuite) {
+        for test in testSuite.tests {
+            if let testCase = test as? XCTestCase {
+                if testCase.name.contains(keyword) {
+                    print("Running Test: \(testCase.name)")
+                    testCase.run() // Run the test
+                }
+            } else if let nestedSuite = test as? XCTestSuite {
+                // Recursively check nested test suites
+                runTests(for: keyword, in: nestedSuite)
+            }
+        }
+    }
+}
+
+//class TestRunner {
+//    static var currentCategory: String = ""
+//
+//    static func runTests(for category: String, in testSuite: XCTestSuite) {
+//        currentCategory = category
+//
+//        for test in testSuite.tests {
+//            if let testCase = test as? XCTestCase {
+//                // Always run the test to allow `Helpers.runIfTagged` to decide execution
+//                print("Checking Test: \(testCase.name)")
+//                testCase.run()
+//            } else if let nestedSuite = test as? XCTestSuite {
+//                // Recursively process nested test suites
+//                runTests(for: category, in: nestedSuite)
+//            }
+//        }
+//    }
+//}
+
+
 
 @propertyWrapper
 struct TestCategory {

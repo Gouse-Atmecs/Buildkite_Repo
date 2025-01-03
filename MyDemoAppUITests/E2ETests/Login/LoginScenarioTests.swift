@@ -58,96 +58,85 @@ final class LoginScenarioTests: BaseTest {
         userCardDetailsTestData = Helpers.loadTestData(from: AppConstants.CARD_DETAILS,ofType: UserCardDetailsModel.self)
     }
 
-   func testLoginPageUIElemetsExists(){
-      logTestCategory()
-      TestLogger.shared.log("Test started: \(self.name)")
-      ///Display the Menu Items
-      homeScreen.tapOnMoreTab()
-      moreScreen.tapOnLogin()
-      ///Login Screen Check for elements existence
-      loginScreen.checkforUserNameTextField()
-      loginScreen.checkForPasswordTextField()
-      loginScreen.checkForLoginBtn()
-      TestLogger.shared.log("Test finished: \(self.name)")
+   func testRegressionLoginPageUIElemetsExists(){
+      //logTestCategory()
+      //Helpers.runIfTagged(with: ["Regression"]) {
+         TestLogger.shared.log("Test started: \(self.name)")
+         ///Display the Menu Items
+         homeScreen.tapOnMoreTab()
+         moreScreen.tapOnLogin()
+         ///Login Screen Check for elements existence
+         loginScreen.checkforUserNameTextField()
+         loginScreen.checkForPasswordTextField()
+         loginScreen.checkForLoginBtn()
+         TestLogger.shared.log("Test finished: \(self.name)")
+     // }
    }
 
-   
-
-   func testLoginPageUIElementsInteraction(){
-      logTestCategory()
-      TestLogger.shared.log("Test started: \(self.name)")
-      ///Display the Menu Items
-      homeScreen.tapOnMoreTab()
-      moreScreen.tapOnLogin()
-      ///Login Screen Check for interactions
-      loginScreen.isUserNameTextFieldClickable()
-      loginScreen.isPasswordTextFieldClickable()
-      loginScreen.isLoginBtnClickable()
-      TestLogger.shared.log("Test finished: \(self.name)")
-   }
-
-   
-
-    func testEmptyLogin(){
-       logTestCategory()
-            TestLogger.shared.log("Test started: \(self.name)")
-            homeScreen.tapOnMoreTab()
-            moreScreen.tapOnLogin()
-            loginScreen.tapOnLogin()
-            loginScreen.assertEmptyUserName()
-       ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)emptyLogin.png")
-
-            loginScreen.tapOnAlertOkBtn()
-            TestLogger.shared.log("Test finished: \(self.name)")
+    func testSanityEmptyLogin(){
+       //logTestCategory()
+       //Helpers.runIfTagged(with: ["Sanity"]) {
+          TestLogger.shared.log("Test started: \(self.name)")
+          homeScreen.tapOnMoreTab()
+          moreScreen.tapOnLogin()
+          loginScreen.tapOnLogin()
+          loginScreen.assertEmptyUserName()
+          ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)emptyLogin.png")
+          
+          loginScreen.tapOnAlertOkBtn()
+          TestLogger.shared.log("Test finished: \(self.name)")
+       //}
     }
 
-       func testLoginAndItemPurchase(){
-          logTestCategory()
-            TestLogger.shared.log("Test started: \(self.name)")
-            /// Login
-            homeScreen.tapOnMoreTab()
-           
-            moreScreen.tapOnLogin()
-            //loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
-            Helpers.loginWithRandomUser(on: loginScreen)
-            homeScreen.tapOnMoreTab()
-            /// Verifying whether user logged in succefully or not
-            VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
-            
-            homeScreen.tapOnCatalogTab()
-            // add product to cart
-            let (procutName,productCost) = homeScreen.getItemDetails(at: firstItemIndex)
-            homeScreen.addToCart(index: firstItemIndex)
-           
-            let productCostInCart: String = cartScreen.getProductPriceInString()
-            let productNameInCart: String = cartScreen.getProductNameString()
-            
-            VerificationManager.validateTrue(for: procutName == productNameInCart)
-            VerificationManager.validateTrue(for: productCost == productCostInCart)
-            
-            //add one more product
-            homeScreen.tapOnCatalogTab()
-            homeScreen.addToCart(index: secondItemIndex)
-            
-            cartScreen.tapOnProceedToCheckOutButton()
-            
-            shippingAddressScreeen.enterUserAddressToPayment(userAddressTestData)
-            checkOutScreen.enterCardDetails(userCardDetailsTestData)
-            placeOrderScreen.tapOnPlaceOrder()
-          ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)OrderSuccessfull.png")
-            /// verifying for checkout successful message
-            VerificationManager.validateTrue(for: checkoutCompleteScreen.checkForContinueShoppingButton())
-            checkoutCompleteScreen.tapOnCotinueShoppingButton()
-            
-            TestLogger.shared.log("Test finished: \(self.name)")
+       func testRegressionLoginAndItemPurchase(){
+          //logTestCategory()
+         // Helpers.runIfTagged(with: ["Regression"]) {
+             TestLogger.shared.log("Test started: \(self.name)")
+             /// Login
+             homeScreen.tapOnMoreTab()
+             
+             moreScreen.tapOnLogin()
+             //loginScreen.login(userName: userCredentialsTestData.validCredentials.userName ?? "", password: userCredentialsTestData.validCredentials.password ?? "")
+             Helpers.loginWithRandomUser(on: loginScreen)
+             homeScreen.tapOnMoreTab()
+             /// Verifying whether user logged in succefully or not
+             VerificationManager.validateTrue(for: moreScreen.checkForLogOut())
+             
+             homeScreen.tapOnCatalogTab()
+             // add product to cart
+             let (procutName,productCost) = homeScreen.getItemDetails(at: firstItemIndex)
+             homeScreen.addToCart(index: firstItemIndex)
+             
+             let productCostInCart: String = cartScreen.getProductPriceInString()
+             let productNameInCart: String = cartScreen.getProductNameString()
+             
+             VerificationManager.validateTrue(for: procutName == productNameInCart)
+             VerificationManager.validateTrue(for: productCost == productCostInCart)
+             
+             //add one more product
+             homeScreen.tapOnCatalogTab()
+             homeScreen.addToCart(index: secondItemIndex)
+             
+             cartScreen.tapOnProceedToCheckOutButton()
+             
+             shippingAddressScreeen.enterUserAddressToPayment(userAddressTestData)
+             checkOutScreen.enterCardDetails(userCardDetailsTestData)
+             placeOrderScreen.tapOnPlaceOrder()
+             ScreenshotHelper.captureAndSaveSimulatorScreenshot(test: self, name: "Simulator Screenshot", savePath: "\(AppConstants.SCREENSHOT_PATH)OrderSuccessfull.png")
+             /// verifying for checkout successful message
+             VerificationManager.validateTrue(for: checkoutCompleteScreen.checkForContinueShoppingButton())
+             checkoutCompleteScreen.tapOnCotinueShoppingButton()
+             
+             TestLogger.shared.log("Test finished: \(self.name)")
+         // }
     }
 
-    func testLoginFailedWithInvalidCredential(){
-        TestLogger.shared.log("Test started: \(self.name)")
-        homeScreen.tapOnMoreTab()
-        moreScreen.tapOnLogin()
-        loginScreen.login(userName: userCredentialsTestData.invalidCredentials.userName ?? "", password: userCredentialsTestData.invalidCredentials.password ?? "")
-        loginScreen.assertErrorMessageIsDisplayed()
-        TestLogger.shared.log(LogMessages.INVALID_CREDENTENTIALS_ENTERED)
-    }
+//    func testLoginFailedWithInvalidCredential(){
+//        TestLogger.shared.log("Test started: \(self.name)")
+//        homeScreen.tapOnMoreTab()
+//        moreScreen.tapOnLogin()
+//        loginScreen.login(userName: userCredentialsTestData.invalidCredentials.userName ?? "", password: userCredentialsTestData.invalidCredentials.password ?? "")
+//        loginScreen.assertErrorMessageIsDisplayed()
+//        TestLogger.shared.log(LogMessages.INVALID_CREDENTENTIALS_ENTERED)
+//    }
 }
